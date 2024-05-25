@@ -9,7 +9,7 @@ export default function Career() {
                         <div>
                             <h3 className="text-white">Carrer so far</h3>
                             <p className="text-white max-w-lg text-lg">
-                                <span className="text-grey"> I'm a </span>
+                                <span className="text-grey"> I&apos;m a </span>
                                 Senior Product Designer <span className="text-grey">at</span>  Unthinkable, <span className="text-grey">with</span> 
                                 <span className="text-grey">  7+ years of experience in the IT industry. 
                                 I started as a </span>
