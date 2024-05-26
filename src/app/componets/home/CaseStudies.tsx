@@ -4,6 +4,7 @@ import Altrum from "../../assets/images/altroum.png";
 import Petsouk from "../../assets/images/petsouk.png";
 import Ryver from "../../assets/images/ryver.png";
 import Heading from "../global/Heading";
+import Cardanchor from "../../assets/images/card-anchor.svg"
 
 export default function CaseStudies() {
     const loanifybg = "linear-gradient(180deg, #FFECC0 0%, #D6C08E 100%)";
@@ -20,26 +21,26 @@ export default function CaseStudies() {
                         Discover My Product Case Studies on Healthcare Project, Silver Loan From Home project, Freelance Projects, 
                     </p>
                     <p className="text-grey text-lg text-center mb-12">Unleash Your Creativity Today!</p>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-5">
                         <Card bg={loanifybg} title="Loanify" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Non-Banking 
                         Financial Company" 
-                        path={Loanify} imageAlt="Loanify" />
+                        path={Loanify} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" />
 
                         <Card bg={altrumbg} title="Altroum Leren" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Non-Banking 
-                        Financial Company" 
-                        path={Altrum} imageAlt="Loanify" />
+                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
+                        Technology" 
+                        path={Altrum} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" />
 
                         <Card bg={Petsoukbg} title="Petsouk" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Non-Banking 
-                        Financial Company" 
-                        path={Petsouk} imageAlt="Loanify" />
+                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="On Demand
+                        Services" 
+                        path={Petsouk} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify"/>
 
                         <Card bg={Ryverbg} title="Ryver" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Non-Banking 
-                        Financial Company" 
-                        path={Ryver} imageAlt="Loanify" />
+                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
+                        Technology" 
+                        path={Ryver} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" />
                     </div>
                 </div>
             </section>

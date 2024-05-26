@@ -103,6 +103,12 @@ h4 {
   text-align: center;
 }
 
+/* case studies section */
+
+.case-studies h5 {
+  font-weight: 700;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
