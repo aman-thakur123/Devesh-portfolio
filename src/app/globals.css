@@ -31,7 +31,7 @@
   }
   
 
-  /* @font-face {
+  @font-face {
   font-family: 'Impact Regular';
   font-style: normal;
   font-weight: normal;
@@ -44,7 +44,7 @@
   font-style: normal;
   font-weight: normal;
   src: local('Impacted Regular'), url('/src/app/assets/font/Impacted.woff') format('woff');
-  } */
+  }
 
 /* impact font ends here */
 
@@ -107,6 +107,28 @@ h4 {
 
 .case-studies h5 {
   font-weight: 700;
+}
+
+.case__studies--heading {
+  font-family: 'Impact Regular';
+  margin-bottom: 2rem;
+  letter-spacing: 3px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.scrolling-text {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scroll 10s linear infinite;
+}
+
+.case__studies--heading img {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 @layer utilities {

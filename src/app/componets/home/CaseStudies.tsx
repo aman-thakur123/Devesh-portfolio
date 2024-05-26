@@ -4,7 +4,9 @@ import Altrum from "../../assets/images/altroum.png";
 import Petsouk from "../../assets/images/petsouk.png";
 import Ryver from "../../assets/images/ryver.png";
 import Heading from "../global/Heading";
-import Cardanchor from "../../assets/images/card-anchor.svg"
+import Cardanchor from "../../assets/images/card-anchor.svg";
+import Subtract from "../../assets/images/Subtract.svg";
+import Image from "next/image";
 
 export default function CaseStudies() {
     const loanifybg = "linear-gradient(180deg, #FFECC0 0%, #D6C08E 100%)";
@@ -16,7 +18,13 @@ export default function CaseStudies() {
         <>
             <section className="case-studies py-16">
                 <div className="container mx-auto">
-                    <Heading heading="WORK RESOURCES Illustrations" />
+                    <div className="flex items-center animate-infinite-scroll justify-center case__studies--heading">
+                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Work</span> 
+                        <Image src={Subtract} alt="divider"/>
+                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">RESOURCES</span>
+                        <Image src={Subtract} alt="divider"/>
+                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Illustrations</span>
+                    </div>
                     <p className="text-grey text-lg max-w-3xl mx-auto text-center mb-6">
                         Discover My Product Case Studies on Healthcare Project, Silver Loan From Home project, Freelance Projects, 
                     </p>

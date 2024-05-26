@@ -16,7 +16,7 @@ export default function Navbar() {
 
                                 Menu open: "hidden", Menu closed: "block"
           --> */}
-                                <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                                 </svg>
                                 {/* <!--
@@ -24,7 +24,7 @@ export default function Navbar() {
 
                                 Menu open: "block", Menu closed: "hidden"
           --> */}
-                                <svg className="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                <svg className="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                                 </svg>
                             </button>
@@ -34,7 +34,7 @@ export default function Navbar() {
                                 <Image src={headerLogo} alt="Logo"/>
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
-                                <div className="flex space-x-4">
+                                <div className="flex space-x-8">
                                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                                     <a href="#" className="bg-gray-900 text-grey hover:text-white active: text-white rounded-md px-3 py-2 text-lg font-regular" aria-current="page">Home</a>
                                     <a href="#" className="text-grey hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-lg font-regular">About</a>
