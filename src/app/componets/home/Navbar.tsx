@@ -1,6 +1,10 @@
+'use client'
 import Image from "next/image";
 import headerLogo from "../../assets/images/header-logo.png";
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 export default function Navbar() {
+    const pathname = usePathname()
     return (
         <>
             <nav className="bg-black">
@@ -36,9 +40,9 @@ export default function Navbar() {
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-8">
                                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                                    <a href="#" className="bg-gray-900 text-grey hover:text-white active: text-white rounded-md px-3 py-2 text-lg font-regular" aria-current="page">Home</a>
-                                    <a href="#" className="text-grey hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-lg font-regular">About</a>
-                                    <a href="#" className="text-grey hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-lg font-regular">Case Studies</a>
+                                    <Link href="/" className={`bg-gray-900 text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular ${pathname === '/' ? 'active: text-white' : ''}`}>Home</Link>
+                                    <Link href="/about" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular ${pathname === '/about' ? 'active: text-white' : ''}`}>About</Link>
+                                    <Link href="/case-studies" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular  ${pathname === '/case-studies' ? 'active: text-white' : ''}`}>Case Studies</Link>
                                     <a href="#" className="text-white bg-blue hover:bg-blue-700 hover:text-white px-4 py-3 text-lg font-regular">Resume</a>
                                 </div>
                             </div>

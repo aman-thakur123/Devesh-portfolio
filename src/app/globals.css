@@ -56,6 +56,40 @@ body {
   background-color: rgb(var(--background-start-rgb));
 }
 
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.gradient-blue {
+  background: -webkit-linear-gradient(90deg, #61D5D8 0%, #4E8DF4 100%);
+  background: linear-gradient(90deg, #61D5D8 0%, #4E8DF4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dot {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.dot.blue{
+  background: -webkit-linear-gradient(90deg, #61D5D8 0%, #4E8DF4 100%);
+  background: linear-gradient(90deg, #61D5D8 0%, #4E8DF4 100%);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border-top-color: #7A7A7A;
+}
 /* typography */
 
 h1 {
@@ -94,7 +128,7 @@ h4 {
 }
 
 /* main banner */
-.main-banner .grid{
+.main-banner .dot-pattern-bg{
   background: url("../app/assets/images/dot-pattern-full.svg");
 }
 /* showcase section styling starts here */
@@ -135,4 +169,17 @@ h4 {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+/* case studies */
+.odd-grid {
+  background-color: #0B0B0B;
+}
+.even-grid .image-section {
+  order: 2;
+}
+
+.even-grid .image-section img {
+  margin-left: auto;
 }
