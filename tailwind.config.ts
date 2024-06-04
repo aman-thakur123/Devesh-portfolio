@@ -46,6 +46,7 @@ const config: Config = {
       'blackgrey': '#2D3C3C',
       'blue': '#2668F2',
       'grey': '#7A7A7A',
+      'bluehover': '#2668F21A'
     }
   },
   plugins: [],

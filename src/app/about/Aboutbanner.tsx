@@ -9,7 +9,7 @@ export default function Aboutbanner() {
         <section className="main-banner pt-6">
             <div className="container mx-auto">
                 <div className="dot-pattern-bg grid grid-cols-2 gap-4 px-3 pt-20 pb-20">
-                    <div>
+                    <div className="place-self-center">
                         <div className="">
                             <HeadingOutfit heading="Devesh Kumar Sharma" />
                         </div>

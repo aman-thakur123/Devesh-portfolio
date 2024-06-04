@@ -12,7 +12,7 @@ export default function Socialicons() {
     const pathname = usePathname()
     return(
         <>
-            <div className="social-icons flex space-x-8">
+            <div className="social-icons flex space-x-10">
                 <Link href="https://www.behance.net/artistdeve62f8" target="_blank">
                     <Image src={behanceLogo} alt="Behance logo"/>
                 </Link>

@@ -6,7 +6,7 @@ import WorkedFor from "./WorkedFor";
 export default function Showcase() {
     return(
         <>
-            <section className="showcase-section py-16">
+            <section className="showcase-section py-20">
                 <WorkedFor />
                 <Heading heading="SHOWCASE" />
                 <div>

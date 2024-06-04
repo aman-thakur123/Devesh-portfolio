@@ -7,7 +7,7 @@ export default function Career() {
                 <div className="container mx-auto">
                     <div className="grid grid-cols-2 gap-4">
                         <div>
-                            <h3 className="text-white">Carrer so far</h3>
+                            <h3 className="text-white">Career so far</h3>
                             <p className="text-white max-w-lg text-lg">
                                 <span className="text-grey"> I&apos;m a </span>
                                 Senior Product Designer <span className="text-grey">at</span>  Unthinkable, <span className="text-grey">with</span> 

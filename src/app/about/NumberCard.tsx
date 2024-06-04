@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import CountUp from 'react-countup';
 
 export default function NumberCard(props:any) {
     const imageurl = props.imageurl;
@@ -11,7 +13,15 @@ export default function NumberCard(props:any) {
                 <div className="numberCard__image">
                     <Image src={imageurl} alt={altData}/>
                 </div>
-                <div className="text-white text-3xl font-semibold">{`${numberData} ${cardName==="Awards" ? "" : "+"}`}</div>
+                <div className="text-white text-3xl font-semibold">
+                    { 
+                        <CountUp className="text-white"
+                            start={0}
+                            end={numberData}
+                            duration={3}>
+                        </CountUp>
+                    }
+                </div>
             </div>
             <div className="card-name text-grey mt-6 text-lg">{cardName}</div>
         </div>

@@ -3,7 +3,7 @@ import blueLogo from "../../assets/images/blue-slogan-logo.png";
 export default function Slogan() {
     return(
         <>
-            <section className="slogan py-16">
+            <section className="slogan pt-16 pb-28">
                 <div className="container mx-auto">
                     <div className="grid grid-cols-2 gap-4">
                         <div>

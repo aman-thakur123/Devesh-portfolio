@@ -22,8 +22,8 @@ export default function Educationworkexperience() {
     }
     
     return(
-        <section className="education bg-blackLight pt-16">
-            <div className="container mx-auto">
+        <section className="education bg-blackLight">
+            <div className="container mx-auto pt-16">
                 <h3 className="text-white mb-14">Education & Work Exper<span className="text-grey">ience</span></h3>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="left-side">
