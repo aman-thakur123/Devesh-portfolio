@@ -6,7 +6,7 @@ import HeadingOutfit from "../componets/global/HeadingOutfit";
 
 export default function Aboutbanner() {
     return(
-        <section className="main-banner pt-6">
+        <section className="main-banner pt-10">
             <div className="container mx-auto">
                 <div className="dot-pattern-bg grid grid-cols-2 gap-4 px-3 pt-20 pb-20">
                     <div className="place-self-center">

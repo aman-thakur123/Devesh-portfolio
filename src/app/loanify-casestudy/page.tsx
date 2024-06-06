@@ -7,7 +7,7 @@ export default function LoanifyCasestudy() {
         imageurl: loanifyimg,
         heading: "Loanify",
         imgalt: "Loanify logo",
-        text: "Loanify specializes in offering instant loans against metals such as silver, gold, and other precious metals. It's a platform where users can obtain loans within 30 minutes right at their doorstep.",
+        text: "Loanify specializes in offering instant loans against metals such as silver, gold, and other precious metals. Its a platform where users can obtain loans within 30 minutes right at their doorstep.",
         services: "NBFC",
         platform: "Android, iOS & Web",
         date: "April,2024",

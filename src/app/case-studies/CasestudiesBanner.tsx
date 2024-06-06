@@ -1,7 +1,7 @@
 export default function CasestudiesBanner(){
     return(
         <>
-            <section className="main-banner">
+            <section className="main-banner pt-10">
                 <div className="container mx-auto">
                     <div className="dot-pattern-bg py-16">
                         <p className="text-white text-center text-2xl">Case Studies</p>
