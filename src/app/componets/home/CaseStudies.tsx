@@ -33,7 +33,7 @@ export default function CaseStudies() {
                         <Card bg={loanifybg} title="Loanify" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Non-Banking 
                         Financial Company" 
-                        path={Loanify} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" />
+                        path={Loanify} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" reurl="loanify-casestudy" />
 
                         <Card bg={altrumbg} title="Altroum Leren" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
