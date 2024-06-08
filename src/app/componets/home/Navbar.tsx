@@ -43,7 +43,7 @@ export default function Navbar() {
                                     <Link href="/" className={`bg-gray-900 text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular ${pathname === '/' ? 'active: text-white' : ''}`}>Home</Link>
                                     <Link href="/about" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular ${pathname === '/about' ? 'active: text-white' : ''}`}>About</Link>
                                     <Link href="/case-studies" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular  ${pathname === '/case-studies' ? 'active: text-white' : ''}`}>Case Studies</Link>
-                                    <a href="#" className="text-white bg-blue hover:bg-blue-700 hover:text-white px-4 py-3 text-lg font-regular">Resume</a>
+                                    <a href="#" className="text-white bg-blue hover:bg-blue-700 hover:text-white px-8 py-2.5 text-lg font-regular">Resume</a>
                                 </div>
                             </div>
                         </div>

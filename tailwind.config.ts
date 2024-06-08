@@ -45,6 +45,7 @@ const config: Config = {
       'blackLight': '#0B0B0B',
       'blackgrey': '#2D3C3C',
       'blue': '#2668F2',
+      'bluelight': '#18395E',
       'grey': '#7A7A7A',
       'bluehover': '#2668F21A'
     }

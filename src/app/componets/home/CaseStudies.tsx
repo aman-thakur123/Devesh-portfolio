@@ -24,6 +24,11 @@ export default function CaseStudies() {
                         <span className="text-white md:text-5xl lg:text-8xl dark:text-white">RESOURCES</span>
                         <Image src={Subtract} alt="divider"/>
                         <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Illustrations</span>
+                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Work</span> 
+                        <Image src={Subtract} alt="divider"/>
+                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">RESOURCES</span>
+                        <Image src={Subtract} alt="divider"/>
+                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Illustrations</span>
                     </div>
                     <p className="text-grey text-lg max-w-3xl mx-auto text-center mb-6">
                         Discover My Product Case Studies on Healthcare Project, Silver Loan From Home project, Freelance Projects, 
@@ -38,7 +43,7 @@ export default function CaseStudies() {
                         <Card bg={altrumbg} title="Altroum Leren" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
                         Technology" 
-                        path={Altrum} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" />
+                        path={Altrum} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" reurl="altorum-casestudy" />
 
                         <Card bg={Petsoukbg} title="Petsouk" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="On Demand
