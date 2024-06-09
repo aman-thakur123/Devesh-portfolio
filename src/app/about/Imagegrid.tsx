@@ -4,7 +4,7 @@ export default function Imagegrid(props:any) {
     const imageurl = props.imageurl;
     const alttext = props.alttext;
     return(
-        <div className="image-border">
+        <div className="image-border overflow-hidden">
             <Image className="object-fill transform transition-all duration-700 hover:scale-125" src={imageurl} alt={alttext}/>
         </div>
     )

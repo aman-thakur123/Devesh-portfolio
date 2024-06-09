@@ -5,7 +5,7 @@ export default function Career() {
         <>
             <section className="career-section py-16">
                 <div className="container mx-auto">
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-x-32">
                         <div>
                             <h3 className="text-white">Career so far</h3>
                             <p className="text-white max-w-lg text-lg">

@@ -1,0 +1,24 @@
+.active {
+    background: linear-gradient(90deg, #61d5d8 0%, #4e8df4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Fallback for browsers that don't support background-clip */
+  }
+  
+  .inactive {
+    color: white;
+  }
+  
+  .dot {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #ffffff;
+  }
+  
+  .activeDot {
+    background: -webkit-linear-gradient(90deg, #61D5D8 0%, #4E8DF4 100%);
+    background: linear-gradient(90deg, #61D5D8 0%, #4E8DF4 100%);
+  }
