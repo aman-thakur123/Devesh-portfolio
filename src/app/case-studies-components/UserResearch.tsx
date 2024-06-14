@@ -24,7 +24,7 @@ const UserResearch:React.FC<userinterface> = ({userImg, userAlt,heading, usersub
                 </div>
                 <div className="flex gap-4 space-x-12">
                     <ul className="text-blackgrey text-lg pt-sans-regular list-disc">
-                        <li className="mb-2">The Silver Institute releases world's silver supply demand statistics semi-annually.</li>
+                        <li className="mb-2">The Silver Institute releases world&apos;s silver supply demand statistics semi-annually.</li>
                         <li className="mb-2">In 2021, global silver supply rose by 8.20% YoY to 1056.20 million ounces, while demand increased by 15.29% YoY to 1033.10 million ounces.</li>
                         <li className="mb-2">Conversely, in 2020, global supply and demand decreased by 4.16% and 9.98% YoY, respectively.</li>
                         <li className="mb-2">Economic improvements globally and a rise in the global equities market provided support to silver prices.</li>
