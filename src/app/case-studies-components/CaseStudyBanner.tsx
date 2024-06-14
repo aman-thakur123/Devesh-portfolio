@@ -7,13 +7,13 @@ interface CaseStudyBannerProps {
     services: string;
     platform: string;
     date: string;
-    loanifyrightimg: string;
+    loanifyrightimg: any;
     loanifyrightimgalt: string;
   }
 
   const CaseStudyBanner: React.FC<CaseStudyBannerProps> = ({ imageurl, heading, imgalt, text, services, platform, date, loanifyrightimg, loanifyrightimgalt }) => {
     return(
-        <section className="casestudy-bg pt-20 pb-20">
+        <section className="casestudy-bg pt-20">
             <div className="container mx-auto">
                 <div className="grid grid-cols-2 gap-16">
                     <div className="left-side-banner place-self-center">

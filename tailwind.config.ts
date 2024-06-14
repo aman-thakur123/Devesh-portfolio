@@ -47,7 +47,10 @@ const config: Config = {
       'blue': '#2668F2',
       'bluelight': '#18395E',
       'grey': '#7A7A7A',
-      'bluehover': '#2668F21A'
+      'bluehover': '#2668F21A',
+      'blackHeading': '#2D2D2D',
+      'yellow': '#fff6de',
+      'yellowdark': '#f6e4c1'
     }
   },
   plugins: [],

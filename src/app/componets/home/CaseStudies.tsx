@@ -3,7 +3,6 @@ import Loanify from "../../assets/images/loanify.png";
 import Altrum from "../../assets/images/altroum.png";
 import Petsouk from "../../assets/images/petsouk.png";
 import Ryver from "../../assets/images/ryver.png";
-import Heading from "../global/Heading";
 import Cardanchor from "../../assets/images/card-anchor.svg";
 import Subtract from "../../assets/images/Subtract.svg";
 import Image from "next/image";

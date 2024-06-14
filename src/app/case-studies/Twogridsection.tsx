@@ -1,4 +1,4 @@
-import Image from "next/image";
+import React from 'react';
 
 type GridDataItem = {
     heading: string;
@@ -8,6 +8,7 @@ type GridDataItem = {
     platform: string;
     altname: string;
     datestart: string;
+    videoPath: any;
 };
 
 type TwogridsectionProps = {
@@ -22,7 +23,9 @@ export default function Twogridsection({ griddata }: TwogridsectionProps) {
                     <div className="container mx-auto">
                         <div className="grid grid-cols-2 gap-20 py-32">
                             <div className="image-section">
-                                <Image className="transform transition-all duration-700 hover:scale-125" src={item.pathurl} alt={item.altname} />
+                                <video width="750" height="500" controls >
+                                    <source src={`/video/${item.videoPath}.mp4`} type="video/mp4"/>
+                                </video>
                             </div>
                             <div className="text-area place-self-center">
                                 <h1 className="text-white text-5xl uppercase">{item.heading}</h1>

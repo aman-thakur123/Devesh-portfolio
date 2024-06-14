@@ -289,5 +289,26 @@ h4 {
   z-index: 2;
 }
 
-
 /* case study */
+
+/*  loanify case study */
+
+.casestudy-bg {
+  background: url("./assets/images/case-study/laonify/background.png");
+}
+
+.problem-statement {
+  background: #fff;
+}
+
+.scope-word {
+  background: #ffffff;
+}
+
+.user-research {
+  background: #fff6de;
+}
+
+.shadow {
+  box-shadow: -10px 10px 8px 0px #00000012;
+}
