@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Card(props:any) {
     return(
         <>
-            <div style={{background:props.bg}} className="px-5 pt-5">
+            <div style={{background:props.bg}} className="px-5 pt-5 overflow-hidden">
                 <div className="flex items-center justify-between mb-2">
                     <h5 className="text-black text-4xl">{props.title}</h5>
                     <Link href={`/${props.reurl}`}>
@@ -14,8 +14,8 @@ export default function Card(props:any) {
                 <p className="text-blackgrey text-lg mb-7">{props.text}</p>
                 <div className="grid grid-cols-2 gap-4 items-end">
                     <div className="text-white text-lg font-medium pb-7 max-w-44">{props.name}</div>
-                    <div className="overflow-hidden">
-                        <Image className="shadow object-fill transform transition-all duration-700 hover:scale-125" src={props.path} alt={props.imageAlt}/>
+                    <div>
+                        <Image className="shadow object-fill transform transition-all duration-700 hover:scale-110" src={props.path} alt={props.imageAlt}/>
                     </div>
                 </div>
             </div>

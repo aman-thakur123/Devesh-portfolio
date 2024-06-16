@@ -50,7 +50,8 @@ const config: Config = {
       'bluehover': '#2668F21A',
       'blackHeading': '#2D2D2D',
       'yellow': '#fff6de',
-      'yellowdark': '#f6e4c1'
+      'yellowdark': '#f6e4c1',
+      'blue-100': '#EEFAF3',
     }
   },
   plugins: [],

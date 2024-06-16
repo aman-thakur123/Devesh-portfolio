@@ -18,11 +18,11 @@ const UserResearch:React.FC<userinterface> = ({userImg, userAlt,heading, usersub
                     <h3 className="text-4xl text-blackHeading mb-0 pt-sans-bold tracking-normal capitalize">{heading}</h3>
                 </div>
                 <p className="text-blackgrey text-lg pt-sans-regular mb-11">{usersubtext}</p>
-                <div className="flex gap-4 mb-12 space-x-12">
+                <div className="grid grid-cols-2 mb-12 space-x-12">
                     <p className="text-blackgrey text-lg pt-sans-regular">{usergraphtext}</p>
-                    <Image src={usergraphimg} alt="user graph"/>
+                    <Image src={usergraphimg} alt="user graph" className="w-full"/>
                 </div>
-                <div className="flex gap-4 space-x-12">
+                <div className="grid grid-cols-2 space-x-12">
                     <ul className="text-blackgrey text-lg pt-sans-regular list-disc">
                         <li className="mb-2">The Silver Institute releases world&apos;s silver supply demand statistics semi-annually.</li>
                         <li className="mb-2">In 2021, global silver supply rose by 8.20% YoY to 1056.20 million ounces, while demand increased by 15.29% YoY to 1033.10 million ounces.</li>

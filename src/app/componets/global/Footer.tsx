@@ -3,7 +3,7 @@ import Socialicons from "./Socialicons";
 export default function Footer() {
     return(
         <>
-            <div className="container mx-auto pb-16">
+            <div className="container mx-auto pb-14 pt-14">
                 <div className="grid grid-cols-2 gap-4">
                     <div className="">
                         <p className="text-grey">My mail Id</p>

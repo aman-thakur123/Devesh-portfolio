@@ -1,25 +1,27 @@
-import CaseStudyBanner from "../case-studies-components/CaseStudyBanner";
-import ProblemStatement from "../case-studies-components/ProblemStatement";
-import loanifyimg from "../assets/images/case-study/laonify/loanify-logo.svg";
-import loanifyrightimg from "../assets/images/case-study/laonify/holding.png";
-import problemRight from "../assets/images/case-study/laonify/problem-right.svg";
-import ScopeWork from "../case-studies-components/ScopeWork";
-import UserResearch from "../case-studies-components/UserResearch";
-import usergraph from "../assets/images/case-study/laonify/user-graph.png";
-import DesignApproach from "../case-studies-components/DesignApproach";
-import Survey from "../case-studies-components/Survey";
-import Problemimg from "../assets/images/case-study/laonify/yellow-bulb.svg";
+import CaseStudyBanner from "../../case-studies-components/CaseStudyBanner";
+import ProblemStatement from "../../case-studies-components/ProblemStatement";
+import loanifyimg from "../../assets/images/case-study/altorum/altorum-logo.svg";
+import altorumrightimg from "../../assets/images/case-study/altorum/altorum-banner-right.svg";
+import problemRight from "../../assets/images/case-study/laonify/problem-right.svg";
+import ScopeWork from "../../case-studies-components/ScopeWork";
+import UserResearch from "../../case-studies-components/UserResearch";
+import usergraph from "../../assets/images/case-study/laonify/user-graph.png";
+import DesignApproach from "../../case-studies-components/DesignApproach";
+import Survey from "../../case-studies-components/Survey";
+import Problemimg from "../../assets/images/case-study/altorum/bulb-red.svg";
+import CompetitiveAnalysis from "../../case-studies/CompetitiveAnalysis";
+import UserPersona from "../../case-studies-components/UserPersona";
 
 export default function LoanifyCasestudy() {
     const details = {
         imageurl: loanifyimg,
-        heading: "Loanify",
+        heading: "Altorum Leren",
         imgalt: "Loanify logo",
-        text: "Loanify specializes in offering instant loans against metals such as silver, gold, and other precious metals. Its a platform where users can obtain loans within 30 minutes right at their doorstep.",
-        services: "NBFC",
+        text: "Altroum Leren specializes in providing expert recommendations for the latest software and hardware technologies, tailored to meet the unique needs of your business",
+        services: "Information Technology",
         platform: "Android, iOS & Web",
-        date: "April,2024",
-        loanifyrightimg: loanifyrightimg,
+        date: "August,2022",
+        loanifyrightimg: altorumrightimg,
         loanifyrightimgalt: "female hand mobile",
     }
 
@@ -60,6 +62,15 @@ export default function LoanifyCasestudy() {
         heading: "Design Approach",
     }
 
+    const compdata = {
+        comptext: "As part of quantitative research an online surveys was conducted to 100 people using google forms and 80 of them responded so far. this survey was consisted of five questions that allowed us to know little more about our user base and better support the findings derived from qualitative research."
+    }
+
+    const userpersona = {
+        userpersonatext: "Based on the user research conducted in my organizations, with my maid and wih my relatives, I set up two personas. I referred to them throughout the entire product development process.",
+
+    }
+
     return(
         <main>
             <CaseStudyBanner {...details}/>
@@ -68,6 +79,8 @@ export default function LoanifyCasestudy() {
             <UserResearch {...userresearch}/>
             <DesignApproach {...designdata}/>
             <Survey />
+            <CompetitiveAnalysis {...compdata}/>
+            <UserPersona {...userpersona}/>
         </main>
     )
 }
