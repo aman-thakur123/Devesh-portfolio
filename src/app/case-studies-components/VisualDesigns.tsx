@@ -3,7 +3,7 @@ import userPersona from "../assets/images/case-study/laonify/yellow-bulb.svg";
 import TwoColumns from "./TwoColumns";
 import img1 from "../assets/images/case-study/laonify/visual-design/Screen1.png";
 import img2 from "../assets/images/case-study/laonify/visual-design/Screen2.png";
-import img3 from "../assets/images/case-study/laonify/visual-design/Screen3.png";
+import img3 from "../assets/images/case-study/laonify/visual-design/screen3.png";
 import img4 from "../assets/images/case-study/laonify/visual-design/Screen4.png";
 import img5 from "../assets/images/case-study/laonify/visual-design/Screen5.png";
 import img6 from "../assets/images/case-study/laonify/visual-design/Screen6.png";
