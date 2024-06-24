@@ -42,7 +42,7 @@ export default function Navbar() {
                                     {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                                     <Link href="/" className={`bg-gray-900 text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular ${pathname === '/' ? 'active: text-white' : ''}`}>Home</Link>
                                     <Link href="/about" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular ${pathname === '/about' ? 'active: text-white' : ''}`}>About</Link>
-                                    <Link href="/case-studies" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular  ${pathname === '/case-studies' ? 'active: text-white' : ''}`}>Case Studies</Link>
+                                    <Link href="/case-studies" className={`text-grey hover:text-white rounded-md px-3 py-2 text-lg font-regular  ${pathname === ('/case-studies' || '/case-studies/loanify-casestudy' || '/case-studies/altorum-casestudy') ? 'active: text-white' : ''}`}>Case Studies</Link>
                                     <a href="#" className="text-white bg-blue hover:bg-blue-700 hover:text-white px-8 py-2.5 text-lg font-regular">Resume</a>
                                 </div>
                             </div>

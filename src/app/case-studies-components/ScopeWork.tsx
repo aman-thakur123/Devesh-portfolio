@@ -1,7 +1,6 @@
 import Image from "next/image";
 import ScopeCard from "./ScopeCard";
 import cardImg from "../assets/images/case-study/laonify/loanify-logo.svg";
-import graphImgfull from "../assets/images/case-study/laonify/loanify-graph.svg";
 import userResearch from "../assets/images/case-study/laonify/user-research.svg";
 import userResearchdesign from "../assets/images/case-study/laonify/user-exp-design.svg";
 import visualdesign from "../assets/images/case-study/laonify/visual-design.svg";
@@ -32,7 +31,7 @@ const ScopeWork: React.FC<scopeWorkInterface> = ({imageurl, imagealt, heading, t
                     <ScopeCard cardimg={visualdesign} cardimgalt="card alt text" subheading="Visual Design" subtext="Worked on the interface designs for the application including prototype." />
                 </div>
                 <div className="mt-14 pb-20">
-                    <Image src={graphImgfull} alt="alt text"/>
+                    <Image src={graphImg} alt="graphalttext"/>
                 </div>
             </div>
         </section>

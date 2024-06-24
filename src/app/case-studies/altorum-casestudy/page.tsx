@@ -2,7 +2,7 @@ import CaseStudyBanner from "../../case-studies-components/CaseStudyBanner";
 import ProblemStatement from "../../case-studies-components/ProblemStatement";
 import loanifyimg from "../../assets/images/case-study/altorum/altorum-logo.svg";
 import altorumrightimg from "../../assets/images/case-study/altorum/altorum-banner-right.svg";
-import problemRight from "../../assets/images/case-study/laonify/problem-right.svg";
+import problemRight from "../../assets/images/case-study/altorum/problem.png";
 import ScopeWork from "../../case-studies-components/ScopeWork";
 import UserResearch from "../../case-studies-components/UserResearch";
 import usergraph from "../../assets/images/case-study/laonify/user-graph.png";
@@ -11,6 +11,7 @@ import Survey from "../../case-studies-components/Survey";
 import Problemimg from "../../assets/images/case-study/altorum/bulb-red.svg";
 import CompetitiveAnalysis from "../../case-studies/CompetitiveAnalysis";
 import UserPersona from "../../case-studies-components/UserPersona";
+import graphImgfull from "../../assets/images/case-study/laonify/loanify-graph.svg";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -29,7 +30,7 @@ export default function LoanifyCasestudy() {
         imageurl: Problemimg,
         imagealt: "Problem Statement Image",
         heading: "Problem Statement",
-        text: "The objective to design an application that enables Loan against Silver Jewellery from home for an Indian consumer that takes into account lifestyle, preference and constraints.",
+        text: "The objective of a software and hardware recommendation tool is to assist users in identifying the best products that match their specific requirements. This might involve suggesting particular software or hardware, or offering general advice on what to consider when choosing a product. The aim is to equip users with the knowledge necessary to make well-informed decisions about the products they select.",
         imageright: problemRight,
         imagerightalt: "problem image"
     }
@@ -43,8 +44,9 @@ export default function LoanifyCasestudy() {
         cardimgalt: "card alt",
         subheading: "User Research",
         subtext: "Its done to address the full range of perspective required to understand the user needs.",
-        graphImg: loanifyimg,
-        graphalttext: "graph alt text"
+        graphImg: graphImgfull,
+        graphalttext: "graph alt text",
+
     }
 
     const userresearch = {

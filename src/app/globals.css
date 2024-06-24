@@ -390,3 +390,31 @@ td:first-child {
   position: absolute;
   left: 0;
 }
+
+/* user flow */
+
+.colortypography .left-side-color .yellow{
+  background-color: #FFD15C;
+  box-shadow: 0px 4px 12px 0px #F2994A33;
+  border-radius: 4px;
+  width: 160px;
+  height: 160px;
+}
+
+.colortypography .right-side-color .blue {
+  background-color: #18395E;
+  box-shadow: 0px 4px 12px 0px #F2994A33;
+  border-radius: 4px;
+  width: 160px;
+  height: 160px;
+}
+
+.red-bg {
+  background-color: #EB5757;
+  height: 108px;
+}
+
+.green-bg {
+  background-color: #27AE60;
+  height: 108px;
+}

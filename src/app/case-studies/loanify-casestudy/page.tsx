@@ -11,6 +11,9 @@ import Survey from "../../case-studies-components/Survey";
 import Problemimg from "../../assets/images/case-study/laonify/yellow-bulb.svg";
 import CompetitiveAnalysis from "../CompetitiveAnalysis";
 import UserPersona from "../../case-studies-components/UserPersona";
+import UserFlow from "@/app/case-studies-components/UserFlow";
+import ColorTypography from "@/app/case-studies-components/ColorTypography";
+import VisualDesigns from "@/app/case-studies-components/VisualDesigns";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -71,6 +74,13 @@ export default function LoanifyCasestudy() {
 
     }
 
+    const userflow = {
+        userflowtext: "While creating a user flow, I take into account both the needs of the business and users. Thus, app users have the opportunity to intuitively navigate inside the application and effectively use all the functionality."
+    }
+
+    const colortypo = {
+        colortext: "text"
+    }
     return(
         <main>
             <CaseStudyBanner {...details}/>
@@ -81,6 +91,9 @@ export default function LoanifyCasestudy() {
             <Survey />
             <CompetitiveAnalysis {...compdata}/>
             <UserPersona {...userpersona}/>
+            <UserFlow {...userflow}/>
+            <ColorTypography {...colortypo} />
+            <VisualDesigns />
         </main>
     )
 }

@@ -52,6 +52,9 @@ const config: Config = {
       'yellow': '#fff6de',
       'yellowdark': '#f6e4c1',
       'blue-100': '#EEFAF3',
+      'lightgrey': '#828282',
+      'greybg': '#FAFAFA',
+      'lightblack': '#4F4F4F'
     }
   },
   plugins: [],

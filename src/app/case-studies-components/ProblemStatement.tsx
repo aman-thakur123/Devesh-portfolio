@@ -3,7 +3,7 @@ interface problemStatementinterface {
     imageurl: any;
     imagealt: string;
     heading: string;
-    imageright: string;
+    imageright: any;
     imagerightalt: string;
     text:string;
 }
