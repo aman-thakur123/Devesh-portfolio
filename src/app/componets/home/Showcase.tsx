@@ -13,7 +13,7 @@ export default function Showcase() {
                 <div>
                     <Marquee>
                         <div>
-                            <Image width={1367} src={multiDribble} alt="multi drible"/>
+                            <Image src={multiDribble} alt="multi drible"/>
                         </div>
                     </Marquee>
                 </div>
