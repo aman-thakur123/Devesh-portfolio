@@ -20,7 +20,7 @@ const ScopeWork: React.FC<scopeWorkInterface> = ({imageurl, imagealt, heading, t
             <div className="container">
                 <div className="flex items-center space-x-4 mb-8">
                     <Image src={imageurl} alt={imagealt} />
-                    <h3 className="text-bluelight text-4xl capitalize mb-0">{heading}</h3>
+                    <h3 className="text-bluelight text-4xl capitalize mb-0 pt-sans-bold tracking-normal">{heading}</h3>
                 </div>
 
                 <p className="text-blackgrey text-lg mb-16">{text}</p>

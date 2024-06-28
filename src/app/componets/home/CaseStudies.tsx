@@ -6,6 +6,7 @@ import Ryver from "../../assets/images/ryver.png";
 import Cardanchor from "../../assets/images/card-anchor.svg";
 import Subtract from "../../assets/images/Subtract.svg";
 import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 export default function CaseStudies() {
     const loanifybg = "linear-gradient(180deg, #FFECC0 0%, #D6C08E 100%)";
@@ -17,17 +18,15 @@ export default function CaseStudies() {
         <>
             <section className="case-studies py-16">
                 <div className="container mx-auto">
-                    <div className="flex items-center animate-infinite-scroll justify-center case__studies--heading">
-                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Work</span> 
-                        <Image src={Subtract} alt="divider"/>
-                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">RESOURCES</span>
-                        <Image src={Subtract} alt="divider"/>
-                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Illustrations</span>
-                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Work</span> 
-                        <Image src={Subtract} alt="divider"/>
-                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">RESOURCES</span>
-                        <Image src={Subtract} alt="divider"/>
-                        <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Illustrations</span>
+                    <div className="flex items-center justify-center case__studies--heading">
+                        <Marquee>
+                                <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Work</span> 
+                                <Image src={Subtract} alt="divider"/>
+                                <span className="text-white md:text-5xl lg:text-8xl dark:text-white">RESOURCES</span>
+                                <Image src={Subtract} alt="divider"/>
+                                <span className="text-white md:text-5xl lg:text-8xl dark:text-white">Illustrations</span>
+                                <Image src={Subtract} alt="divider"/>
+                        </Marquee>
                     </div>
                     <p className="text-grey text-lg max-w-3xl mx-auto text-center mb-6">
                         Discover My Product Case Studies on Healthcare Project, Silver Loan From Home project, Freelance Projects, 

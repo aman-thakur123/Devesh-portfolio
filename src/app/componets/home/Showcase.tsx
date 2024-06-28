@@ -1,7 +1,8 @@
+import Image from "next/image";
 import Heading from "../global/Heading";
 import multiDribble from "../../assets/images/all-dribble-project.png";
-import Image from "next/image";
 import WorkedFor from "./WorkedFor";
+import Marquee from "react-fast-marquee";
 
 export default function Showcase() {
     return(
@@ -10,7 +11,11 @@ export default function Showcase() {
                 <WorkedFor />
                 <Heading heading="SHOWCASE" />
                 <div>
-                    <Image src={multiDribble} alt="multi drible"/>
+                    <Marquee>
+                        <div>
+                            <Image width={1367} src={multiDribble} alt="multi drible"/>
+                        </div>
+                    </Marquee>
                 </div>
             </section>
         </>

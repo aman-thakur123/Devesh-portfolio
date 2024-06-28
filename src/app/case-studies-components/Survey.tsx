@@ -15,7 +15,7 @@ export default function Survey() {
                     I received 8 responses.
                 </p>
                 <h6 className="text-bluelight text-2xl pt-sans-bold mb-6">Results:</h6>
-                <ul className="text-bluelight text-lg pt-sans-regular">
+                <ul className="text-bluelight text-lg pt-sans-regular list-disc">
                     <li className="mb-4">
                         85% said since it is a secured loan they do prefer over conventional loan as there is no requirement of a good credit history to avail
                         a Silver loan. So that means there are many users applying for loans frequently.
@@ -28,7 +28,7 @@ export default function Survey() {
                         55% of users depend on offline channels for taking Gold loans and they would love to explore Silver loan from home facility.
                     </li>
                 </ul>
-                <div className="grid grid-cols-2 gap-4 mt-11">
+                <div className="grid grid-cols-2 gap-12 mt-11">
                     <div className="survey-card bg-yellowdark p-6 rounded-lg">
                         <p className="text-blackHeading text-base pt-sans-bold mb-6">
                             How convenient do you find the idea of obtaining a silver loan without visiting a physical branch?

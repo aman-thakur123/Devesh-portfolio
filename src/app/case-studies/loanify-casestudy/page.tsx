@@ -14,6 +14,7 @@ import UserPersona from "../../case-studies-components/UserPersona";
 import UserFlow from "@/app/case-studies-components/UserFlow";
 import ColorTypography from "@/app/case-studies-components/ColorTypography";
 import VisualDesigns from "@/app/case-studies-components/VisualDesigns";
+import graphImage from "../../assets/images/case-study/laonify/map-image.svg";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -46,7 +47,7 @@ export default function LoanifyCasestudy() {
         cardimgalt: "card alt",
         subheading: "User Research",
         subtext: "Its done to address the full range of perspective required to understand the user needs.",
-        graphImg: loanifyimg,
+        graphImg: graphImage,
         graphalttext: "graph alt text"
     }
 

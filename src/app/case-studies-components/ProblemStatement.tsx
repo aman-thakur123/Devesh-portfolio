@@ -16,7 +16,7 @@ const problemStatement: React.FC<problemStatementinterface> = ({imageurl, imagea
                     <div>
                         <div className="flex items-center space-x-4 mb-10">
                             <Image src={imageurl} alt={imagealt} />
-                            <h3 className="text-bluelight text-4xl capitalize mb-0">{heading}</h3>
+                            <h3 className="text-bluelight text-4xl capitalize mb-0 pt-sans-bold tracking-normal">{heading}</h3>
                         </div>
                         <p className="text-blackgrey text-lg">{text}</p>
                     </div>

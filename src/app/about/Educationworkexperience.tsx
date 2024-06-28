@@ -1,6 +1,6 @@
 "use client"
 import ImpactsmallHeading from "../componets/global/ImpactsmallHeading";
-import unthikable from "../assets/images/university-logo.svg";
+import unthikable from "../assets/images/unthikable-flag.svg";
 import chromInfo from "../assets/images/chromeinfotech-logo.svg";
 import University from "../assets/images/university-logo.svg";
 import Academics from "../componets/global/Academics";
@@ -27,8 +27,8 @@ export default function Educationworkexperience() {
                 <h3 className="text-white mb-14">Education & Work Experience</h3>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="left-side">
-                        <Academics imageurl={chromInfo} imagealt="Chrome Infotech" academicName="B.A in Vfx & Animation" academictext="Mahatma Gandhi University ( 2013 - 2016 )"/>
-                        <Academics imageurl={University} imagealt="University Logo" academicName="UI/UX Designer" academictext="ChromeInfo Technologies ( 2016 - 2020 )"/>
+                        <Academics imageurl={University} imagealt="Chrome Infotech" academicName="B.A in Vfx & Animation" academictext="Mahatma Gandhi University ( 2013 - 2016 )"/>
+                        <Academics imageurl={chromInfo} imagealt="University Logo" academicName="UI/UX Designer" academictext="ChromeInfo Technologies ( 2016 - 2020 )"/>
                         <Academics imageurl={unthikable} imagealt="Unthinkable Logo" academicName="Sr.Product Designer" academictext="Unthinkable Solutions LLP ( 2020 - Present )"/>
                     </div>
                     <div className="right-side place-self-end">
