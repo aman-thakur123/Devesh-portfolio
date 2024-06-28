@@ -18,7 +18,9 @@ export default function NumberCard(props:any) {
                         <CountUp className="text-white"
                             start={0}
                             end={numberData}
-                            duration={3}>
+                            duration={3}
+                            suffix="+"
+                            >
                         </CountUp>
                     }
                 </div>

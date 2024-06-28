@@ -14,7 +14,7 @@ export default function Slogan() {
                                 most to you.
                                 </p>
                         </div>
-                        <div className="place-self-end">
+                        <div className="place-self-center">
                             <Image src={blueLogo} alt="slogan logo"/>
                         </div>
                     </div>
