@@ -2,6 +2,7 @@ import MainHeading from "../case-studies/MainHeading";
 import userPersona from "../assets/images/case-study/laonify/yellow-bulb.svg";
 import TwoColumns from "./TwoColumns";
 import img1 from "../assets/images/case-study/laonify/visual-design/Screen1.png";
+import imgup from "../assets/images/case-study/laonify/visual-design/imageup.png";
 import img2 from "../assets/images/case-study/laonify/visual-design/Screen2.png";
 import img3 from "../assets/images/case-study/laonify/visual-design/screen3.png";
 import img4 from "../assets/images/case-study/laonify/visual-design/Screen4.png";
@@ -11,6 +12,7 @@ import img7 from "../assets/images/case-study/laonify/visual-design/Screen7.png"
 import TwoColumnsreverse from "./TwoColumnsreverse";
 import TwoColumnList from "./TwoColumnList";
 import OtherScreens from "./OtherScreens";
+import TwoColumnImageup from "./TwoColumnImageup";
 
 interface visualdesign {
 
@@ -46,17 +48,34 @@ const twocolumnloan = {
     img2: img7,
     img2alt: "mobile image two",
 }
+
+const twocolimageup = {
+    heading1: "Choose Metal Weight",
+    text1: "User can enter the silver weight and accordingly he/she will get the price on the app.",
+    heading2: "Add Address",
+    text2: "User can add their home address from the change address button",
+    heading3: "Select Date & Time",
+    text3: "Usr can select date and time as per their convenience so that the pickup guy can come to their doorstep for silver pickup.",
+    img1: imgup,
+    img1alt: "mobile image",
+}
+
 const VisualDesigns:React.FC<visualdesign> =()=> {
     return(
         <section className="visual-design bg-greybg pt-20 pb-20">
             <div className="container">
                 <MainHeading heading="Visual Designs" imageAlt="User Persona image" imageUrl={userPersona} />
+            </div>
+            <div className="circle-bg-grey">
                 <TwoColumns {...twocoloumndata}/>
                 <TwoColumnsreverse {...twocoloumndatareverse}/>
-                <TwoColumnList {...twocolumnlist}/>
-                <TwoColumns {...twocolumnloan}/>
-                <OtherScreens />
             </div>
+            <TwoColumnList {...twocolumnlist}/>
+            <div className="half-circle-bg">
+            <TwoColumns {...twocolumnloan}/>
+            </div>
+            <TwoColumnImageup {...twocolimageup}/>
+            <OtherScreens />
         </section>
     )
 }

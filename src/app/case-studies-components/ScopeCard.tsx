@@ -2,7 +2,7 @@ import Image from "next/image";
 
 
 interface scopeinterface {
-    cardimg: string;
+    cardimg: any;
     cardimgalt: string;
     subheading: string;
     subtext: string;

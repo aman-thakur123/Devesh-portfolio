@@ -3,15 +3,17 @@ import ProblemStatement from "../../case-studies-components/ProblemStatement";
 import loanifyimg from "../../assets/images/case-study/altorum/altorum-logo.svg";
 import altorumrightimg from "../../assets/images/case-study/altorum/altorum-banner-right.svg";
 import problemRight from "../../assets/images/case-study/altorum/problem.png";
-import ScopeWork from "../../case-studies-components/ScopeWork";
-import UserResearch from "../../case-studies-components/UserResearch";
 import usergraph from "../../assets/images/case-study/laonify/user-graph.png";
-import DesignApproach from "../../case-studies-components/DesignApproach";
-import Survey from "../../case-studies-components/Survey";
 import Problemimg from "../../assets/images/case-study/altorum/bulb-red.svg";
 import CompetitiveAnalysis from "../../case-studies/CompetitiveAnalysis";
-import UserPersona from "../../case-studies-components/UserPersona";
 import graphImgfull from "../../assets/images/case-study/laonify/loanify-graph.svg";
+import ScopeWorkAltrum from "@/app/case-studies-components/altorum-components/ScopeWorkAltrum";
+import VisualDesigns from "@/app/case-studies-components/VisualDesigns";
+import ColorTypography from "@/app/case-studies-components/ColorTypography";
+import Wireframes from "@/app/case-studies-components/Wireframes";
+import AltorumUserResearch from "@/app/case-studies-components/altorum-components/AltorumUserResearch";
+import AltorumUserPersona from "@/app/case-studies-components/altorum-components/AltorumUserPersona";
+import AltorumUserFlow from "@/app/case-studies-components/altorum-components/AltorumUserFlow";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -36,7 +38,7 @@ export default function LoanifyCasestudy() {
     }
 
     const scope = {
-        imageurl:Problemimg,
+        imageurl: Problemimg,
         imagealt: "alt",
         heading: "Scope Of Work & Timeline",
         text: "I started the assignment to identify and effectively improve problems through UX research and analysis",
@@ -46,22 +48,15 @@ export default function LoanifyCasestudy() {
         subtext: "Its done to address the full range of perspective required to understand the user needs.",
         graphImg: graphImgfull,
         graphalttext: "graph alt text",
-
     }
 
     const userresearch = {
         userImg: Problemimg,
         userAlt: "User alt text",
         heading: "User Research",
-        usersubtext: "Silver in India comes next to gold in the jewellery buying preference of Indians. With the current downward spiraling of gold prices, silver is the new-found love of Indians. The shiny metal has been able to hold its price and even seen appreciations in a time when gold has been continuously losing shine for the past 2-3 years. Silver in various forms is popular in the Indian culture. The most significant role is played by it in weddings and birthdays. Other ceremonies which see silver being used as gifts and puja item are naming ceremony of babies, engagement ceremonies and pujas during Indian festivals like Diwali and Holi.",
+        usersubtext: "I interviewed 120 users by creating a WhatsApp group to understand how they search for software and hardware before making a purchase. I also discovered their frustrations with navigating various websites and articles, which often leaves them feeling even more confused.",
         usergraphtext: "Silver in India comes next to gold in the jewellery buying preference of Indians. With the current downward spiraling of gold prices, silver is the new-found love of Indians. The shiny metal has been able to hold its price and even seen appreciations in a time when gold has been continuously losing shine for the past 2-3 years.Silver in various forms is popular in the Indian culture. The most significant role is played by it in weddings and birthdays. Other ceremonies which see silver being used as gifts and puja item are naming ceremony of babies, engagement ceremonies and pujas during Indian festivals like Diwali and Holi.",
         usergraphimg: usergraph
-    }
-
-    const designdata = {
-        designImg: Problemimg,
-        designAlt: "design alt",
-        heading: "Design Approach",
     }
 
     const compdata = {
@@ -70,19 +65,29 @@ export default function LoanifyCasestudy() {
 
     const userpersona = {
         userpersonatext: "Based on the user research conducted in my organizations, with my maid and wih my relatives, I set up two personas. I referred to them throughout the entire product development process.",
-
+    }
+    const userflow = {
+        userflowtext: "While creating a user flow, I take into account both the needs of the business and users. Thus, app users have the opportunity to intuitively navigate inside the application and effectively use all the functionality."
+    }
+    const colortypo = {
+        colortext: "text"
+    }
+    const wireframe = {
+        wireframetext: "While creating a user flow, I take into account both the needs of the business and users. Thus, app users have the opportunity to intuitively navigate inside the application and effectively use all the functionality."
     }
 
     return(
         <main>
             <CaseStudyBanner {...details}/>
             <ProblemStatement {...problem}/>
-            <ScopeWork {...scope}/>
-            <UserResearch {...userresearch}/>
-            <DesignApproach {...designdata}/>
-            <Survey />
+            <ScopeWorkAltrum {...scope}/>
+            <AltorumUserResearch {...userresearch}/>
             <CompetitiveAnalysis {...compdata}/>
-            <UserPersona {...userpersona}/>
+            <AltorumUserPersona {...userpersona}/>
+            <AltorumUserFlow {...userflow}/>
+            <Wireframes {...wireframe}/>
+            <ColorTypography {...colortypo} />
+            <VisualDesigns />
         </main>
     )
 }

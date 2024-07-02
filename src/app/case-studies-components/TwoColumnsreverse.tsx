@@ -20,7 +20,7 @@ const TwoColumnsreverse:React.FC<twocolumnreverse> =({heading, text ,img1, img1a
                         </div>
                     </div>
                     <div>
-                        <div className="max-w-96 m-auto">
+                        <div className="max-w-96 ml-auto">
                             <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4">{heading}</h5>
                             <p className="text-lightblack">{text}</p>
                         </div>

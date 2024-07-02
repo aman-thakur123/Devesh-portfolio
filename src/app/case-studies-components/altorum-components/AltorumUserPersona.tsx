@@ -1,8 +1,8 @@
-import MainHeading from "../case-studies/MainHeading";
-import userPersona from "../assets/images/case-study/laonify/yellow-bulb.svg";
-import UserPersonaDetail from "./UserPersonaDetail";
-import Mayarani from "../assets/images/case-study/laonify/maya-rani.png";
-import Sureshimg from "../assets/images/case-study/laonify/Suresh-chand-sharma.png";
+import MainHeading from "@/app/case-studies/MainHeading";
+import userPersona from "../../assets/images/case-study/altorum/bulb-red.svg";
+import Mayarani from "../../assets/images/case-study/laonify/maya-rani.png";
+import Sureshimg from "../../assets/images/case-study/laonify/Suresh-chand-sharma.png";
+import UserPersonaDetail from "../UserPersonaDetail";
 
 interface userpersona {
     userpersonatext: any;
@@ -46,7 +46,7 @@ const userpersonadetailmaya = {
     ]
 
 }
-const UserPersona:React.FC<userpersona> = ({userpersonatext})=>{
+const AltorumUserPersona:React.FC<userpersona> = ({userpersonatext})=>{
     return(
         <>
             <section className="user-persona">
@@ -67,4 +67,4 @@ const UserPersona:React.FC<userpersona> = ({userpersonatext})=>{
     )
 }
 
-export default UserPersona;
+export default AltorumUserPersona;

@@ -10,11 +10,11 @@ interface twocolumn {
 }
 const TwoColumns:React.FC<twocolumn> =({heading, text ,img1, img1alt, img2, img2alt})=> {
     return(
-        <section className="mb-20">
+        <section>
             <div className="container">
                 <div className="grid grid-cols-2 items-center">
                     <div>
-                        <div className="max-w-96 m-auto">
+                        <div className="max-w-96">
                             <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4">{heading}</h5>
                             <p className="text-lightblack">{text}</p>
                         </div>

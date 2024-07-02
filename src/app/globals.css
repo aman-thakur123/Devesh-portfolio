@@ -445,16 +445,30 @@ td:first-child {
 
 /* visual design section loanify */
 
-.visual-design{
+.circle-bg-grey{
   background: url("./assets/images/case-study/laonify/circle-grey-bg.png");
   background-repeat: no-repeat;
   background-color: rgb(250 250 250 / var(--tw-bg-opacity));
   background-position: center;
 }
 
+.half-circle-bg {
+  background: url("./assets/images/case-study/laonify/half-circle.png");
+  background-repeat: no-repeat;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity));
+  background-position: right;
+}
 
 /* marquee */
 
 .rfm-marquee-container {
   overflow-y: hidden;
+}
+
+.other-screen .rfm-child{
+  margin-right: 64px;
+}
+
+.imagelift {
+  top: -50px;
 }
