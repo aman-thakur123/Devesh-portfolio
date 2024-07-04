@@ -65,7 +65,7 @@ const PetsoukUserResearch:React.FC<userinterface> = ({userImg, userAlt,heading, 
                             <h5 className="pt-sans-bold text-blackHeading text-2xl mb-4">Secondary Research</h5>
                             <p className="mb-8 text-blackgrey text-lg leading-relaxed">
                                 Based on insights from primary research and an exploration of user behavior, I sought 
-                                to gain an overview of the pet industry online. In India, there's a noticeable trend 
+                                to gain an overview of the pet industry online. In India, there&apos;s a noticeable trend 
                                 towards humanizing pets, treating them as integral family members deserving of 
                                 comparable care and attention. This cultural shift is fueling a growing demand 
                                 for diverse pet care services and products. The rise of nuclear families, 
