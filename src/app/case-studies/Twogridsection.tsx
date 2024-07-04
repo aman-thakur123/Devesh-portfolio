@@ -23,7 +23,7 @@ export default function Twogridsection({ griddata }: TwogridsectionProps) {
                     <div className="container mx-auto">
                         <div className="grid grid-cols-2 gap-20 py-32">
                             <div className="image-section">
-                                <video width="100%" height="100%" controls autoPlay muted>
+                                <video width="100%" height="100%" controls autoPlay loop muted>
                                     <source src={`/video/${item.videoPath}.mp4`} type="video/mp4"/>
                                 </video>
                             </div>

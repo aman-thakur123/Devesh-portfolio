@@ -9,11 +9,12 @@ import CompetitiveAnalysis from "../../case-studies/CompetitiveAnalysis";
 import graphImgfull from "../../assets/images/case-study/laonify/loanify-graph.svg";
 import ScopeWorkAltrum from "@/app/case-studies-components/altorum-components/ScopeWorkAltrum";
 import VisualDesigns from "@/app/case-studies-components/VisualDesigns";
-import ColorTypography from "@/app/case-studies-components/ColorTypography";
 import Wireframes from "@/app/case-studies-components/Wireframes";
 import AltorumUserResearch from "@/app/case-studies-components/altorum-components/AltorumUserResearch";
 import AltorumUserPersona from "@/app/case-studies-components/altorum-components/AltorumUserPersona";
 import AltorumUserFlow from "@/app/case-studies-components/altorum-components/AltorumUserFlow";
+import AltorumTypography from "@/app/case-studies-components/altorum-components/AltorumTypography";
+import AltorumCompetitiveAnalysis from "@/app/case-studies-components/altorum-components/AltorumCompetitiveAnalysis";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -82,11 +83,11 @@ export default function LoanifyCasestudy() {
             <ProblemStatement {...problem}/>
             <ScopeWorkAltrum {...scope}/>
             <AltorumUserResearch {...userresearch}/>
-            <CompetitiveAnalysis {...compdata}/>
+            <AltorumCompetitiveAnalysis {...compdata}/>
             <AltorumUserPersona {...userpersona}/>
             <AltorumUserFlow {...userflow}/>
             <Wireframes {...wireframe}/>
-            <ColorTypography {...colortypo} />
+            <AltorumTypography {...colortypo} />
             <VisualDesigns />
         </main>
     )

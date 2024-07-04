@@ -1,5 +1,5 @@
 import MainHeading from "../case-studies/MainHeading";
-import userPersona from "../assets/images/case-study/laonify/yellow-bulb.svg";
+import userPersona from "../assets/images/case-study/altorum/bulb-red.svg";
 import Image from "next/image";
 import userflowimg from "../assets/images/case-study/altorum/altorum-wireframe.png";
 

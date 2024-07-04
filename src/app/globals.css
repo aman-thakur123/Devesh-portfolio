@@ -313,7 +313,7 @@ h4 {
   box-shadow: -10px 10px 8px 0px #00000012;
 }
 
-video{
+.image-section video{
   object-fit: initial;
   width: 100%;
   height: 375px;
@@ -471,4 +471,31 @@ td:first-child {
 
 .imagelift {
   top: -50px;
+}
+
+.greytypo-box {
+  border-radius: 48px;
+}
+
+
+/* petsouk banner css starts here */
+.petsouk-banner {
+  position: relative;
+}
+
+.petsouk-banner-absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: fit-content;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* petsouk user research */
+.petsouk-user-research {
+  background-color: #e9e6f4;
 }

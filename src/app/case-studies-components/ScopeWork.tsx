@@ -10,11 +10,10 @@ interface scopeWorkInterface {
     imagealt: string;
     heading: string;
     text: string;
-    graphImg: string;
-    graphalttext: string;
+    graphImg: any;
 }
 
-const ScopeWork: React.FC<scopeWorkInterface> = ({imageurl, imagealt, heading, text, graphImg, graphalttext}) => {
+const ScopeWork: React.FC<scopeWorkInterface> = ({imageurl, imagealt, heading, text, graphImg}) => {
     return(
         <section className="scope-word pt-sans-regular">
             <div className="container">

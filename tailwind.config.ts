@@ -56,6 +56,8 @@ const config: Config = {
       'greybg': '#FAFAFA',
       'lightblack': '#4F4F4F',
       'lightred': "#C24B21",
+      'greytext': "#767676",
+      'darkgreybg': "#26303A",
     }
   },
   plugins: [],

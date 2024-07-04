@@ -41,17 +41,17 @@ export default function CaseStudies() {
                         <Card bg={altrumbg} title="Altroum Leren" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
                         Technology" 
-                        path={Altrum} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" reurl="case-studies/altorum-casestudy" />
+                        path={Altrum} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="altorum" reurl="case-studies/altorum-casestudy" />
 
                         <Card bg={Petsoukbg} title="Petsouk" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="On Demand
                         Services" 
-                        path={Petsouk} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify"/>
+                        path={Petsouk} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="petsouk" reurl="case-studies/petsouk-casestudy"/>
 
                         <Card bg={Ryverbg} title="Ryver" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
                         Technology" 
-                        path={Ryver} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" />
+                        path={Ryver} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="ryver" />
                     </div>
                 </div>
             </section>

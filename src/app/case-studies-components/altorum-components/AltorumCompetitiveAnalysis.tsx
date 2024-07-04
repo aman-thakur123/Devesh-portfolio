@@ -6,7 +6,7 @@ import TableLoanify from "@/app/case-studies/TableLoanify";
 interface competitiveinterface  {
     comptext: string;
 }
-const CompetitiveAnalysis:React.FC<competitiveinterface> = ({comptext})=>{
+const AltorumCompetitiveAnalysis:React.FC<competitiveinterface> = ({comptext})=>{
     return(
         <section className="user-persona bg-white pt-20 pb-10">
             <div className="container">
@@ -18,4 +18,4 @@ const CompetitiveAnalysis:React.FC<competitiveinterface> = ({comptext})=>{
     )
 }
 
-export default CompetitiveAnalysis;
+export default AltorumCompetitiveAnalysis;
