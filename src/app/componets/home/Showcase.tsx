@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Heading from "../global/Heading";
-import multiDribble from "../../assets/images/all-dribble-project.png";
+import multiDribble from "../../assets/images/carousal.svg";
 import WorkedFor from "./WorkedFor";
 import Marquee from "react-fast-marquee";
 
