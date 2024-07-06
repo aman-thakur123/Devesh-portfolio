@@ -376,6 +376,7 @@ th:first-child {
 
 td:first-child {
   background-color: #F7F7FA;
+  font-weight: bold;
 }
 
 /* user persona */
@@ -498,4 +499,158 @@ td:first-child {
 /* petsouk user research */
 .petsouk-user-research {
   background-color: #e9e6f4;
+}
+
+/* Petsouk survey */
+.petsouk-survey {
+  background-color: #e9e6f4;
+}
+
+.bg-purple-dark{
+  background-color: #d9d4ec;
+}
+
+.green-bullet-100:before {
+  background-color: #6CB640;
+}
+
+.green-bullet-200:before {
+  background-color: #2F817B;
+}
+
+.green-bullet-300:before {
+  background-color: #295854;
+}
+
+.green-bullet-400:before {
+  background-color: #154440;
+}
+
+/* user persona */
+.grey-container {
+  background-color: #ebe9f4;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.grey-bg-user {
+  padding: 31px 60px;
+  background-color: #ebe9f4;
+  border-radius: 15px;
+}
+
+.left-container img{
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.user-details label{
+  display: block;
+}
+
+.border-gap {
+  border-right: 1px solid #4F481F;
+  text-align: right;
+  padding-right: 16px;
+  margin-right: 16px;
+}
+
+.typo-blue-bg{
+  background-color: #4A35A5;
+}
+
+.typo-green-bg {
+  background-color: #6CB640;
+}
+
+.typo-dark-blue-bg {
+  background-color: #18395E;
+}
+
+.color-radius {
+  border-radius: 24px;
+}
+
+.typo-text {
+   font-size: 44px;
+   font-family: "PT Sans", sans-serif;
+   font-weight: bold;
+   transform: rotate(-90deg);
+}
+
+.color-radius {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.green-text {
+  color: #3E6C24;
+}
+
+.blue-text {
+  color: #2D1B7D;
+}
+
+.dark-blue-text{
+  color: #0D2640;
+}
+
+.typo-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typo-grey-box {
+  padding: 55px;
+  border-radius: 24px;
+  margin-top: 56px;
+}
+
+.up-img {
+  margin-top: -104px;
+}
+
+.life-better-video {
+  width: calc(100vw - (100vw - 1140px)/2 );
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc((100vw - 1110px)/2);
+}
+
+.step-card {
+  border: 1px solid #CCC9C9;
+  border-radius: 12px;
+  padding: 15px 20px;
+}
+
+.meet-people-video-container {
+  position: relative;
+}
+
+.meet-video {
+  width: calc(100vw - (100vw - 1110px) / 2);
+  border-bottom-left-radius: 24px;
+  border-top-left-radius: 24px;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.meet-image {
+  position: absolute;
+  top: 18%;
+  transform: translateY(-50%);
+  right: calc((100vw - 1110px)/2);
+}
+
+.visual-design-grey-bg-section {
+  background-color: #FAFAFA;
 }

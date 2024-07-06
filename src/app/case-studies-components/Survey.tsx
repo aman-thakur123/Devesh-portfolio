@@ -15,8 +15,8 @@ export default function Survey() {
                     I received 8 responses.
                 </p>
                 <h6 className="text-bluelight text-2xl pt-sans-bold mb-6">Results:</h6>
-                <ul className="text-bluelight text-lg pt-sans-regular list-disc">
-                    <li className="mb-4">
+                <ul className="text-bluelight text-lg pt-sans-regular list-disc pl-4">
+                    <li className="mb-4 leading-9">
                         85% said since it is a secured loan they do prefer over conventional loan as there is no requirement of a good credit history to avail
                         a Silver loan. So that means there are many users applying for loans frequently.
                     </li>

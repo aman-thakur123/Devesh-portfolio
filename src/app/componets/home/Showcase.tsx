@@ -7,7 +7,7 @@ import Marquee from "react-fast-marquee";
 export default function Showcase() {
     return(
         <>
-            <section className="showcase-section py-20">
+            <section className="showcase-section">
                 <WorkedFor />
                 <Heading heading="SHOWCASE" />
                 <div>

@@ -1,18 +1,16 @@
 import loanifyimg from "../../assets/images/case-study/laonify/loanify-logo.svg";
-import usergraph from "../../assets/images/case-study/laonify/user-graph.png";
-import DesignApproach from "../../case-studies-components/DesignApproach";
-import Survey from "../../case-studies-components/Survey";
 import Problemimg from "../../assets/images/case-study/petsouk/violet-bulb.svg";
-import CompetitiveAnalysis from "../CompetitiveAnalysis";
-import UserPersona from "../../case-studies-components/UserPersona";
-import UserFlow from "@/app/case-studies-components/UserFlow";
-import ColorTypography from "@/app/case-studies-components/ColorTypography";
-import VisualDesigns from "@/app/case-studies-components/VisualDesigns";
 import graphImage from "../../assets/images/case-study/petsouk/map.png";
 import PetsoukBanner from "@/app/case-studies-components/petsouk-components/PetsoukBanner";
 import PetsoukProblemStatement from "@/app/case-studies-components/petsouk-components/PetsoukProblemStatement";
 import PetsoukScopeWork from "@/app/case-studies-components/petsouk-components/PetsoukScopeWork";
 import PetsoukUserResearch from "@/app/case-studies-components/petsouk-components/PetsoukUserResearch";
+import PetsoukCompetitiveAnalysis from "@/app/case-studies-components/petsouk-components/PetsoukCompetitiveAnalysis";
+import PetsoukSurvey from "@/app/case-studies-components/petsouk-components/PetsoukSurvey";
+import PetsoukUserPersona from "@/app/case-studies-components/petsouk-components/PetsoukUserPersona";
+import PetsoukColorTypography from "@/app/case-studies-components/petsouk-components/PetsoukColorTypography";
+import PetsoukVisulDesign from "@/app/case-studies-components/petsouk-components/PetsoukVisulDesign";
+import PetsoukOtherScreens from "@/app/case-studies-components/petsouk-components/PetsoukOtherScreens";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -63,20 +61,18 @@ export default function LoanifyCasestudy() {
         userflowtext: "While creating a user flow, I take into account both the needs of the business and users. Thus, app users have the opportunity to intuitively navigate inside the application and effectively use all the functionality."
     }
 
-    const colortypo = {
-        colortext: "text"
-    }
     return(
         <main>
             <PetsoukBanner {...details}/>
             <PetsoukProblemStatement {...problem}/>
             <PetsoukScopeWork {...scope}/>
             <PetsoukUserResearch {...userresearch}/>
-            <CompetitiveAnalysis {...compdata}/>
-            <Survey />
-            <UserPersona {...userpersona}/>
-            <ColorTypography {...colortypo} />
-            <VisualDesigns />
+            <PetsoukCompetitiveAnalysis {...compdata}/>
+            <PetsoukSurvey />
+            <PetsoukUserPersona {...userpersona}/>
+            <PetsoukColorTypography />
+            <PetsoukVisulDesign />
+            <PetsoukOtherScreens />
         </main>
     )
 }
