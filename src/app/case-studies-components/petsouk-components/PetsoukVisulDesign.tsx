@@ -12,6 +12,9 @@ import fourrabbit from "../../assets/images/case-study/petsouk/four-rabit.svg";
 import fourturtle from "../../assets/images/case-study/petsouk/four-turtle.svg";
 import communityengagement from "../../assets/images/case-study/petsouk/community-engagement.png";
 import home from "../../assets/images/case-study/petsouk/home.png";
+import gola from "../../assets/images/case-study/petsouk/gola.png";
+import dogsimg from "../../assets/images/case-study/petsouk/Dogs.png";
+import pedigree from "../../assets/images/case-study/petsouk/pedigree.png";
 import Image from "next/image";
 
 const video = {
@@ -21,7 +24,7 @@ const video = {
 
 const PetsoukVisulDesign:React.FC =()=> {
     return(
-        <section className="visual-design bg-white pt-20">
+        <section className="visual-design bg-white pt-10">
             <div className="container">
                 <MainHeading heading="Visual Designs" imageAlt="User Persona image" imageUrl={userPersona} />
             </div>
@@ -30,7 +33,7 @@ const PetsoukVisulDesign:React.FC =()=> {
                     <div className="grid grid-cols-2 items-center">
                         <div>
                             <div className="max-w-96">
-                                <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4">Simple & Secure Login</h5>
+                                <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4">Simple & <br /> Secure Login</h5>
                                 <p className="text-lightblack">After Splash screen, user will redirect to the choose language screen so that he/she can choose their regional language based on the states</p>
                             </div>
                         </div>
@@ -177,6 +180,67 @@ const PetsoukVisulDesign:React.FC =()=> {
                                     <Image src={home} alt="home" />
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="gamification pt-14">
+                    <div className="container">
+                        <div className="grid grid-cols-2 items-center">
+                            <div>
+                                <div className="max-w-96">
+                                    <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4 leading-normal">Gamification - <br/> Spin The Wheel</h5>
+                                    <p className="text-lightblack leading-8 text-lg">
+                                        Loan application process is divided into 3 easy steps where user needs 
+                                        to request for silver loan from hom screen and then can apply for it 
+                                        for further step.
+                                    </p>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="grid grid-cols-2 space-x-10">
+                                    <div className="spin-wheel">
+                                        <Image src={gola} alt="wheel" className="animate-spin"/>
+                                    </div>
+                                    <Image src={img2} alt="proceed" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="food-listing pt-44">
+                    <div className="container">
+                        <div className="grid grid-cols-3">
+                            <Image src={pedigree} alt="pedigree image" className="img-lift"/>
+                            <div className="food-center">
+                                <div className="mb-16">
+                                    <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">Food Listing</h5>
+                                    <p className="text-lightblack text-lg pt-sans-regular leading-8">
+                                        User can enter the silver weight and accordingly he/she will get the 
+                                        price on the app.
+                                    </p>
+                                </div>
+                                <div className="mb-16">
+                                    <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">Food Detail Page</h5>
+                                    <p className="text-lightblack text-lg pt-sans-regular leading-8">
+                                        Usr can select date and time as per their convenience so that the 
+                                        pickup guy can come to their doorstep for silver pickup.
+                                    </p>
+                                </div>
+                                <div className="mb-16">
+                                    <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">Similar Food Options</h5>
+                                    <p className="text-lightblack text-lg pt-sans-regular leading-8">
+                                        User can add their home address from the change address button
+                                    </p>
+                                </div>
+                                <div>
+                                    <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">User Reviews</h5>
+                                    <p className="text-lightblack text-lg pt-sans-regular leading-8">
+                                        User can add their home address from the change address button
+                                    </p>
+                                </div>
+                            </div>
+                            <Image src={dogsimg} alt="dogs image" className="justify-self-end"/>
                         </div>
                     </div>
                 </div>

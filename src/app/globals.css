@@ -654,3 +654,26 @@ td:first-child {
 .visual-design-grey-bg-section {
   background-color: #FAFAFA;
 }
+
+.spin-wheel {
+  background: url("./assets/images/case-study//petsouk/spin-wheels.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.spin-wheel img {
+  position: relative;
+  top: -66px
+}
+
+.img-lift{
+  margin-top: -269px;
+}
+
+.gamification {
+  background: url("./assets/images/case-study/petsouk/gamification-circle.svg");
+  background-repeat: no-repeat;
+  background-position: right 56px;
+}

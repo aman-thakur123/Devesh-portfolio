@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const PetsoukColorTypography:React.FC = ()=> {
     return(
-        <section className="colortypography bg-white pt-10 pb-20 pt-sans-regular">
+        <section className="colortypography bg-white pt-10 pb-10 pt-sans-regular">
             <div className="container">
                 <MainHeading heading="Colors & Typography" imageAlt="User Persona image" imageUrl={userPersona} />
                 <div className="grid grid-cols-6 color-radius">
