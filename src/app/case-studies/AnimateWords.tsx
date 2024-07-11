@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import styles from './Animated.word.module.css';
 
 const AnimateWords: React.FC = () => {
-  const words = ['OPTIMIZE', 'INNOVATE', 'DISRUPT'];
+  const words = ['Concept', 'Creativity', 'Creation'];
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {

@@ -13,7 +13,7 @@ export default function Card(props:any) {
                 </div>
                 <p className="text-blackgrey text-lg mb-7">{props.text}</p>
                 <div className="grid grid-cols-2 gap-4 items-end">
-                    <div className="text-white text-lg font-medium pb-7 max-w-44">{props.name}</div>
+                    <div className="text-white text-lg font-medium pb-7 max-w-44 rounded-tag">{props.name}</div>
                     <div>
                         <Image className="shadow object-fill transform transition-all duration-700 hover:scale-110" src={props.path} alt={props.imageAlt}/>
                     </div>

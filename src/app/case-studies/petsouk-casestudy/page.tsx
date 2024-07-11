@@ -1,6 +1,6 @@
 import loanifyimg from "../../assets/images/case-study/laonify/loanify-logo.svg";
 import Problemimg from "../../assets/images/case-study/petsouk/violet-bulb.svg";
-import graphImage from "../../assets/images/case-study/petsouk/map.svg";
+import graphImage from "../../../../public/images/case-study/petsouk/map.svg";
 import PetsoukBanner from "@/app/case-studies-components/petsouk-components/PetsoukBanner";
 import PetsoukProblemStatement from "@/app/case-studies-components/petsouk-components/PetsoukProblemStatement";
 import PetsoukScopeWork from "@/app/case-studies-components/petsouk-components/PetsoukScopeWork";

@@ -24,12 +24,12 @@ export default function Educationworkexperience() {
     return(
         <section className="education bg-blackLight">
             <div className="container mx-auto pt-16">
-                <h3 className="text-white mb-14">Education & Work Experience</h3>
+                <h3 className="text-white mb-14">Work Experience & Education</h3>
                 <div className="grid grid-cols-2 gap-4">
                     <div className="left-side">
-                        <Academics imageurl={University} imagealt="Chrome Infotech" academicName="B.A in Vfx & Animation" academictext="Mahatma Gandhi University ( 2013 - 2016 )"/>
-                        <Academics imageurl={chromInfo} imagealt="University Logo" academicName="UI/UX Designer" academictext="ChromeInfo Technologies ( 2016 - 2020 )"/>
-                        <Academics imageurl={unthikable} imagealt="Unthinkable Logo" academicName="Sr.Product Designer" academictext="Unthinkable Solutions LLP ( 2020 - Present )"/>
+                        <Academics redirecturl="https://www.unthinkable.co" imageurl={unthikable} imagealt="Unthinkable Logo" academicName="Sr.Product Designer" academictext="Unthinkable Solutions LLP ( 2020 - Present )"/>
+                        <Academics redirecturl="https://www.chromeinfotech.net" imageurl={chromInfo} imagealt="University Logo" academicName="UI/UX Designer" academictext="ChromeInfo Technologies ( 2016 - 2020 )"/>
+                        <Academics redirecturl="https://www.mgu.ac.in" imageurl={University} imagealt="Chrome Infotech" academicName="B.A in Vfx & Animation" academictext="Mahatma Gandhi University ( 2013 - 2016 )"/>
                     </div>
                     <div className="right-side place-self-end">
                         <Image className="cursor-pointer" onMouseEnter={handleMouseOver(DeveshColor)} onMouseLeave={handleMouseLeave}  src={image} alt="Devesh Pic" width={600} height={600}/>

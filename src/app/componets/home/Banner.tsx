@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import Heading from "../global/Heading";
-import brandLogo from "../../assets/images/circle.svg";
+import brandLogo from "../../../../public/images/circle.svg";
 import Socialicons from "../global/Socialicons";
 
 

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import blueLogo from "../../assets/images/blue-slogan-logo.png";
+import blueLogo from "../../../../public/images/blue-slogan-logo.svg";
 export default function Slogan() {
     return(
         <>
@@ -14,8 +14,8 @@ export default function Slogan() {
                                 most to you.
                                 </p>
                         </div>
-                        <div className="place-self-center">
-                            <Image src={blueLogo} alt="slogan logo"/>
+                        <div className="content-center">
+                            <Image src={blueLogo} alt="slogan logo" className="ml-auto"/>
                         </div>
                     </div>
                 </div>

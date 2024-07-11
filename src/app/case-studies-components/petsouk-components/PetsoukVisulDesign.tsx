@@ -20,6 +20,7 @@ import Image from "next/image";
 const video = {
     videopath: "petsoukvideo",
     meetpeople: "meetpeople",
+    deveshvideo: "deveshvideo"
 }
 
 const PetsoukVisulDesign:React.FC =()=> {
@@ -40,7 +41,12 @@ const PetsoukVisulDesign:React.FC =()=> {
                         <div>
                             <div className="grid grid-cols-2 space-x-10">
                                 <Image src={img1} alt="get started" className="up-img"/>
-                                <Image src={img2} alt="proceed" />
+                                <div className="divesh-video">
+                                    <div className="divesh-image-ontop"></div>
+                                    <video autoPlay loop muted>
+                                        <source src={`/video/${video.meetpeople}.mp4`} type="video/mp4"/>
+                                    </video>
+                                </div>
                             </div>
                         </div>
                     </div>

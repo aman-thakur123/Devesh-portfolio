@@ -33,25 +33,25 @@ export default function CaseStudies() {
                     </p>
                     <p className="text-grey text-lg text-center mb-12">Unleash Your Creativity Today!</p>
                     <div className="grid grid-cols-2 gap-5">
+                        <Card bg={Petsoukbg} title="Petsouk" 
+                        text="Petsouk is an online platform catering to various pets such as dogs, cats, hamsters, and more." 
+                        name="On Demand" 
+                        path={Petsouk} imageAlt="Petsouk" cardanchor={Cardanchor} cardanchoralttext="petsouk" reurl="case-studies/petsouk-casestudy"/>
+                        
+                        <Card bg={Ryverbg} title="EHR" 
+                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." 
+                        name="Healthcare" 
+                        path={Ryver} imageAlt="Ehr" cardanchor={Cardanchor} cardanchoralttext="ryver" />
+
                         <Card bg={loanifybg} title="Loanify" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Non-Banking 
-                        Financial Company" 
+                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." 
+                        name="NBFC" 
                         path={Loanify} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="loanify" reurl="case-studies/loanify-casestudy" />
 
                         <Card bg={altrumbg} title="Altroum Leren" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
-                        Technology" 
-                        path={Altrum} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="altorum" reurl="case-studies/altorum-casestudy" />
-
-                        <Card bg={Petsoukbg} title="Petsouk" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="On Demand
-                        Services" 
-                        path={Petsouk} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="petsouk" reurl="case-studies/petsouk-casestudy"/>
-
-                        <Card bg={Ryverbg} title="Ryver" 
-                        text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." name="Information
-                        Technology" 
-                        path={Ryver} imageAlt="Loanify" cardanchor={Cardanchor} cardanchoralttext="ryver" />
+                        text="Altroum Leren specializes in offering expert recommendations on the latest software and hardware technologies." 
+                        name="E-Commerce" 
+                        path={Altrum} imageAlt="Altroum" cardanchor={Cardanchor} cardanchoralttext="altorum" reurl="case-studies/altorum-casestudy" />
                     </div>
                 </div>
             </section>

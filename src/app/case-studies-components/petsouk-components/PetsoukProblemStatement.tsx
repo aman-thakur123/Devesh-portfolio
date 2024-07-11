@@ -2,7 +2,7 @@ import Image from "next/image";
 import cat from "../../assets/images/case-study/petsouk/cat.png";
 import dog from "../../assets/images/case-study/petsouk/dog1.png";
 import turtle from "../../assets/images/case-study/petsouk/turtle.png";
-import rabbit from "../../assets/images/case-study/petsouk/rabbit.png";
+import rabbit from "../../../../public/images/case-study/petsouk/rabit-gif.gif";
 interface problemStatementinterface {
     imageurl: any;
     imagealt: string;
@@ -32,7 +32,7 @@ const PetsoukProblemStatement: React.FC<problemStatementinterface> = ({imageurl,
                 <div className="grid grid-cols-4 gap-x-9 mt-20">
                     <Image src={dog} alt="dog" />
                     <Image src={cat} alt="cat" />
-                    <Image src={rabbit} alt="rabbit" />
+                    <Image src={rabbit} alt="rabbit" className="rounded-2xl"/>
                     <Image src={turtle} alt="turtle" />
                 </div>
             </div>

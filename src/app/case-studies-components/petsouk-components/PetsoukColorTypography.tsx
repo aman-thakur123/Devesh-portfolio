@@ -1,7 +1,7 @@
 import MainHeading from "@/app/case-studies/MainHeading";
 import userPersona from "../../assets/images/case-study/petsouk/violet-bulb.svg";
 import dogRect from "../../assets/images/case-study/petsouk/dog-rect.png";
-import catRect from "../../assets/images/case-study/petsouk/cat-rect.png";
+import catRect from "../../../../public/images/case-study/petsouk/cat-rect.gif";
 import rabbitRect from "../../assets/images/case-study/petsouk/rabbit-rect.png"
 import Image from "next/image";
 
@@ -25,7 +25,7 @@ const PetsoukColorTypography:React.FC = ()=> {
                         </span>
                     </div>
                     <div>
-                        <Image src={catRect} alt="cat rectangle image"/>
+                        <Image src={catRect} alt="cat rectangle image" className="h-full"/>
                     </div>
                     <div className="typo-group typo-dark-blue-bg">
                         <span className="typo-text dark-blue-text">

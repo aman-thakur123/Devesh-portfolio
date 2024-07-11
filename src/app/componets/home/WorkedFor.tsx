@@ -2,14 +2,14 @@
 import Image from "next/image";
 import Link from 'next/link';
 import { useState } from "react";
-import ChromeInfotechColored from "../../assets/images/chromeinfotech.png";
-import chromewhite from "../../assets/images/chrome-white.png";
-import unthikableColored from "../../assets/images/unthinkable.png";
-import unthikableWhite from "../../assets/images/unthinkable-white.png";
-import altorumColored from "../../assets/images/altorum-leren.png";
-import altrumwhite from "../../assets/images/altrum-white.png";
-import paynetColored from "../../assets/images/paynet.svg";
-import paynetWhite from "../../assets/images/paynet-white.png";
+import ChromeInfotechColored from "../../../../public/images/chromeinfotech.png";
+import chromewhite from "../../../../public/images/chrome-white.png";
+import unthikableColored from "../../../../public/images/unthinkable.png";
+import unthikableWhite from "../../../../public/images/unthinkable-white.png";
+import altorumColored from "../../../../public/images/altorum-leren.png";
+import altrumwhite from "../../../../public/images/altrum-white.png";
+import paynetColored from "../../../../public/images/paynet.svg";
+import paynetWhite from "../../../../public/images/paynet-white.png";
 
 export default function WorkedFor() {
     const [chromeImage, setChromeImage] = useState(chromewhite);

@@ -60,6 +60,7 @@ const config: Config = {
       'darkgreybg': "#26303A",
       'typobggrey': "#ebf3f2",
       'green': "#2F817B",
+      'orange': "#EC5516"
     }
   },
   plugins: [],

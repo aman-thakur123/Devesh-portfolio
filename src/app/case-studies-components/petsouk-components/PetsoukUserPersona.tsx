@@ -1,6 +1,6 @@
 import MainHeading from "@/app/case-studies/MainHeading";
 import userPersona from "../../assets/images/case-study/petsouk/violet-bulb.svg";
-import men from "../../assets/images/case-study/petsouk/men.png";
+import men from "../../../../public/images/case-study/petsouk/men.jpg";
 import Image from "next/image";
 
 interface userpersona {
@@ -18,7 +18,7 @@ const PetsoukUserPersona: React.FC<userpersona> = ({ userpersonatext }) => {
                         <div className="grid grid-flow-col auto-cols-auto gap-5">
                             <div className="left-container">
                                 <div className="grey-bg-user">
-                                    <Image src={men} alt="user" />
+                                    <Image src={men} alt="user" width={280} />
                                     <h4 className="text-4xl text-blackHeading pt-sans-bold tracking-normal mb-1 text-center">Harsh Agarwal</h4>
                                     <p className="text-base pt-sans-regular text-lg text-blackHeading text-center mb-16">Software Developer</p>
                                     <div className="user-details">

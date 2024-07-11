@@ -5,6 +5,7 @@ export default function Academics(props:any) {
     const imagealt = props.imagealt;
     const academicName = props.academicName;
     const academictext = props.academictext;
+    const redirect = props.redirecturl;
     return(
         <>
             <div className="flex academics-wrapper">
@@ -13,7 +14,7 @@ export default function Academics(props:any) {
                 </div>
                 <div>
                     <h4 className="text-white text-2xl mb-2 font-semibold outfit academics__heading">{academicName}</h4>
-                    <p className="text-grey text-xl academics__text">{academictext}</p>
+                    <a href={redirect} className="text-grey text-xl academics__text underline">{academictext}</a>
                 </div>
             </div>
         </>
