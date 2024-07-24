@@ -1,6 +1,8 @@
+"use client"
 import Image from "next/image";
 import girl from "../../assets/images/case-study/petsouk/girl.png";
 import dogcat from "../../assets/images/case-study/petsouk/dogncat.png";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 interface userinterface {
     userImg: string;
@@ -54,7 +56,9 @@ const PetsoukUserResearch:React.FC<userinterface> = ({userImg, userAlt,heading, 
                             </ul>
                         </div>
                         <div>
-                            <Image src={girl} alt="petsouk girl image"/>
+                            <ScrollAnimation animateIn="fadeInRight" delay={5}>
+                                <Image src={girl} alt="petsouk girl image"/>
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>

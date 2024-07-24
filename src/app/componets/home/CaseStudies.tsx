@@ -41,7 +41,7 @@ export default function CaseStudies() {
                         <Card bg={Ryverbg} title="EHR" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." 
                         name="Healthcare" 
-                        path={Ryver} imageAlt="Ehr" cardanchor={Cardanchor} cardanchoralttext="ryver" />
+                        path={Ryver} imageAlt="Ehr" cardanchor={Cardanchor} cardanchoralttext="ryver" reurl="case-studies/ehr-casestudy"/>
 
                         <Card bg={loanifybg} title="Loanify" 
                         text="A comprehensive platform offering silver loans at the most competitive interest rates available in the market." 

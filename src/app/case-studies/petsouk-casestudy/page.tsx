@@ -11,6 +11,10 @@ import PetsoukUserPersona from "@/app/case-studies-components/petsouk-components
 import PetsoukColorTypography from "@/app/case-studies-components/petsouk-components/PetsoukColorTypography";
 import PetsoukVisulDesign from "@/app/case-studies-components/petsouk-components/PetsoukVisulDesign";
 import PetsoukOtherScreens from "@/app/case-studies-components/petsouk-components/PetsoukOtherScreens";
+import PetsoukWireframes from "@/app/case-studies-components/petsouk-components/PetsoukWireframes";
+import Thanks from "@/app/componets/global/Thanks";
+import thankimg from "../../../../public/images/case-study/petsouk/thanks.png";
+import "animate.css/animate.compat.css";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -53,12 +57,21 @@ export default function LoanifyCasestudy() {
     }
 
     const userpersona = {
-        userpersonatext: "Based on the user research conducted in my organizations, with my maid and wih my relatives, I set up two personas. I referred to them throughout the entire product development process.",
+        userpersonatext: "Based on user research, I developed a user persona with my friend, who owns two pets and experiences similar issues identified in my findings.",
 
     }
 
     const userflow = {
         userflowtext: "While creating a user flow, I take into account both the needs of the business and users. Thus, app users have the opportunity to intuitively navigate inside the application and effectively use all the functionality."
+    }
+    const wireframe = {
+        wireframetext: "I conducted a peer review of the hand-drawn wireframes and engaged in brainstorming sessions with my product design team, including my design manager. Based on the discussions and feedback, I made the necessary iterations."
+    }
+
+    const thanksdata = {
+        thanksimg: thankimg,
+        thanksalt: "thanks image",
+        heading: "Thanks For Your Attention!"
     }
 
     return(
@@ -70,9 +83,11 @@ export default function LoanifyCasestudy() {
             <PetsoukCompetitiveAnalysis {...compdata}/>
             <PetsoukSurvey />
             <PetsoukUserPersona {...userpersona}/>
+            <PetsoukWireframes {...wireframe}/>
             <PetsoukColorTypography />
             <PetsoukVisulDesign />
             <PetsoukOtherScreens />
+            <Thanks {...thanksdata}/>
         </main>
     )
 }

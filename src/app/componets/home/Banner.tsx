@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Heading from "../global/Heading";
 import brandLogo from "../../../../public/images/circle.svg";
+import circlesmall from "../../../../public/images/circle-small.svg";
 import Socialicons from "../global/Socialicons";
 
 
@@ -25,7 +26,11 @@ export default function Banner() {
                     </div>
                     <div className="place-self-center">
                         <div className="text-center">
-                            <Image src={brandLogo} alt="brand logo" className="mx-auto animate-spin"/>
+                            <div className="relative">
+                                <Image src={brandLogo} alt="brand logo" className="mx-auto animate-spin"/>
+                                <Image src={circlesmall} alt="brand logo" className="mx-auto circle-banner "/>
+                            </div>
+                            
                             <p className="text-white text-xl max-w-lg mx-auto mt-6">
                                 <span className="text-grey">Currently working as</span> Senior Product Designer <span className="text-grey">at </span>
                                 Unthinkable Solutions. <span className="text-grey">Previously worked with</span> Chrome Infotechnologies

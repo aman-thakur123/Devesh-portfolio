@@ -1,3 +1,4 @@
+"use client"
 import userPersona from "../../assets/images/case-study/petsouk/violet-bulb.svg";
 import img1 from "../../assets/images/case-study/petsouk/find-your-pets.png";
 import img2 from "../../assets/images/case-study/petsouk/Login.png";
@@ -8,7 +9,7 @@ import step1 from "../../assets/images/case-study/petsouk/step-1.svg";
 import step2 from "../../assets/images/case-study/petsouk/step-2.svg";
 import fourdog from "../../assets/images/case-study/petsouk/four-dog.svg";
 import fourcat from "../../assets/images/case-study/petsouk/four-cat.svg";
-import fourrabbit from "../../assets/images/case-study/petsouk/four-rabit.svg";
+import fourrabbit from "../../../../public/images/case-study/petsouk/dog-gif.gif";
 import fourturtle from "../../assets/images/case-study/petsouk/four-turtle.svg";
 import communityengagement from "../../assets/images/case-study/petsouk/community-engagement.png";
 import home from "../../assets/images/case-study/petsouk/home.png";
@@ -16,6 +17,7 @@ import gola from "../../assets/images/case-study/petsouk/gola.png";
 import dogsimg from "../../assets/images/case-study/petsouk/Dogs.png";
 import pedigree from "../../assets/images/case-study/petsouk/pedigree.png";
 import Image from "next/image";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const video = {
     videopath: "petsoukvideo",
@@ -39,14 +41,13 @@ const PetsoukVisulDesign:React.FC =()=> {
                             </div>
                         </div>
                         <div>
-                            <div className="grid grid-cols-2 space-x-10">
-                                <Image src={img1} alt="get started" className="up-img"/>
-                                <div className="divesh-video">
-                                    <div className="divesh-image-ontop"></div>
-                                    <video autoPlay loop muted>
-                                        <source src={`/video/${video.meetpeople}.mp4`} type="video/mp4"/>
-                                    </video>
-                                </div>
+                            <div className="grid grid-cols-2 gap-4">
+                                <ScrollAnimation animateIn="fadeInUp" delay={3}>
+                                    <Image src={img1} alt="get started" className="up-img"/>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInDown" delay={3}>
+                                    <Image src={img2} alt="get started"/>
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -114,8 +115,12 @@ const PetsoukVisulDesign:React.FC =()=> {
                         </div>
                         <div>
                             <div className="grid grid-cols-2 space-x-10">
-                                <Image src={img3} alt="get started" className="up-img"/>
-                                <Image src={img3} alt="proceed" />
+                                <ScrollAnimation animateIn="fadeInUp" delay={3}>
+                                    <Image src={img3} alt="get started" className="up-img"/>
+                                </ScrollAnimation>
+                                <ScrollAnimation animateIn="fadeInDown" delay={3}>
+                                    <Image src={img3} alt="proceed" />
+                                </ScrollAnimation>
                             </div>
                         </div>
                     </div>
@@ -125,10 +130,10 @@ const PetsoukVisulDesign:React.FC =()=> {
             <div className="four-image">
                 <div className="container">
                     <div className="grid grid-cols-4 gap-9">
-                        <Image src={fourdog} alt="dog" />
-                        <Image src={fourcat} alt="cat" />
-                        <Image src={fourrabbit} alt="rabbit" />
-                        <Image src={fourturtle} alt="turtle" />
+                        <Image src={fourdog} alt="dog" className="rounded-2xl" />
+                        <Image src={fourcat} alt="cat" className="rounded-2xl" />
+                        <Image src={fourrabbit} alt="rabbit" className="rounded-2xl" />
+                        <Image src={fourturtle} alt="turtle" className="rounded-2xl" />
                     </div>
                 </div>
             </div>
@@ -157,33 +162,32 @@ const PetsoukVisulDesign:React.FC =()=> {
                     <div className="container">
                         <div className="grid grid-cols-2 items-center">
                             <div>
-                                <div className="max-w-96">
+                                <div className="">
                                     <div className="mb-12">
                                         <h5 className="text-2xl text-bluelight pt-sans-bold mb-4">Search Functionality</h5>
                                         <p className="text-lightblack text-lg pt-sans-regular">
-                                            Loan Application process have been divided into quick & easy 3 steps to provide 
-                                            better user experience
+                                            Easily search for pet services such as grooming, veterinary care, and pet products. Find the best options for your pet with just a few clicks!
                                         </p>
                                     </div>
                                     <div className="mb-12">
                                         <h5 className="text-2xl text-bluelight pt-sans-bold mb-4">Pet Categories</h5>
                                         <p className="text-lightblack text-lg pt-sans-regular">
-                                            Other services like wallet integration, mobile recharges, 
-                                            electricity bill payments, gas cylinder bill services are also provided.
+                                            Explore various pet categories to find your perfect companion for adoption. Discover a wide range of pets looking for a loving home!
                                         </p>
                                     </div>
                                     <div>
                                         <h5 className="text-2xl text-bluelight pt-sans-bold mb-4">Join Pet Lovers Community</h5>
                                         <p className="text-lightblack text-lg pt-sans-regular">
-                                            QR functionality have also been provided so that user can pay EMI’s 
-                                            and other bills with just one quick scan
+                                            Join our pet lovers community to connect with fellow pet enthusiasts and share your experiences. Be part of a vibrant network that celebrates pets!
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="flex justify-end">
-                                    <Image src={home} alt="home" />
+                                    <ScrollAnimation animateIn="fadeInRight" delay={5}>
+                                        <Image src={home} alt="home" />
+                                    </ScrollAnimation>
                                 </div>
                             </div>
                         </div>
@@ -196,9 +200,7 @@ const PetsoukVisulDesign:React.FC =()=> {
                                 <div className="max-w-96">
                                     <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4 leading-normal">Gamification - <br/> Spin The Wheel</h5>
                                     <p className="text-lightblack leading-8 text-lg">
-                                        Loan application process is divided into 3 easy steps where user needs 
-                                        to request for silver loan from hom screen and then can apply for it 
-                                        for further step.
+                                        Spin the wheel for a chance to win exciting coupons and prizes! Try your luck and enjoy great rewards for you and your pet!
                                     </p>
                                 </div>
                             </div>
@@ -217,36 +219,39 @@ const PetsoukVisulDesign:React.FC =()=> {
                 <div className="food-listing pt-44">
                     <div className="container">
                         <div className="grid grid-cols-3">
-                            <Image src={pedigree} alt="pedigree image" className="img-lift"/>
+                            <ScrollAnimation animateIn="fadeInUp" delay={5}>
+                                <Image src={pedigree} alt="pedigree image" className="img-lift"/>
+                            </ScrollAnimation>
                             <div className="food-center">
                                 <div className="mb-16">
                                     <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">Food Listing</h5>
                                     <p className="text-lightblack text-lg pt-sans-regular leading-8">
-                                        User can enter the silver weight and accordingly he/she will get the 
-                                        price on the app.
+                                        Browse extensive selection of premium pet food products. Find the perfect nutrition options for your pet&apos;s health and happiness!
                                     </p>
                                 </div>
                                 <div className="mb-16">
                                     <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">Food Detail Page</h5>
                                     <p className="text-lightblack text-lg pt-sans-regular leading-8">
-                                        Usr can select date and time as per their convenience so that the 
-                                        pickup guy can come to their doorstep for silver pickup.
+                                        Dive into the details of each pet food product, including comprehensive descriptions, nutritional values, and brand information. Make informed choices for your pet&apos;s diet and well-being!
                                     </p>
                                 </div>
                                 <div className="mb-16">
                                     <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">Similar Food Options</h5>
                                     <p className="text-lightblack text-lg pt-sans-regular leading-8">
-                                        User can add their home address from the change address button
+                                        Including similar food options on the pet food detail page allows pet owners to compare products easily, ensuring they find the best nutritional match for their pet&apos;s needs. This feature enhances the shopping experience by offering alternative choices and promoting informed decision-making.
                                     </p>
                                 </div>
                                 <div>
                                     <h5 className="text-2xl text-bluelight pt-sans-bold mb-3">User Reviews</h5>
                                     <p className="text-lightblack text-lg pt-sans-regular leading-8">
-                                        User can add their home address from the change address button
+                                        User reviews provide valuable insights and firsthand experiences, helping pet owners make informed 
+                                        purchasing decisions. They build trust and offer a community perspective on product effectiveness and quality.
                                     </p>
                                 </div>
                             </div>
-                            <Image src={dogsimg} alt="dogs image" className="justify-self-end"/>
+                            <ScrollAnimation className="ml-auto" animateIn="fadeInDown" delay={5}>
+                                <Image src={dogsimg} alt="dogs image" className="justify-self-end"/>
+                            </ScrollAnimation>
                         </div>
                     </div>
                 </div>

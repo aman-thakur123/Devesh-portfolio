@@ -9,7 +9,8 @@ export default function Navbar() {
         '/case-studies',
         '/case-studies/loanify-casestudy',
         '/case-studies/altorum-casestudy',
-        '/case-studies/petsouk-casestudy'
+        '/case-studies/petsouk-casestudy',
+        '/case-studies/ehr-casestudy'
       ];
       
       const isCaseStudyPath = caseStudiesPaths.includes(pathname);
