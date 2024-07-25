@@ -16,7 +16,7 @@ export default function PetsoukSurvey() {
                 </p>
                 <h6 className="text-bluelight text-2xl pt-sans-bold mb-6">Results:</h6>
                 <ul className="text-bluelight text-lg pt-sans-regular list-disc pl-4">
-                    <li className="mb-4">
+                    <li className="mb-4 leading-loose">
                         With responses from over 320 participants across two groups, these polls validate 
                         the need to design and develop an app that caters to the specific needs of
                         Indian pet owners.
@@ -146,7 +146,7 @@ export default function PetsoukSurvey() {
                     </div>
                     <div className="survey-card bg-purple-dark p-6 rounded-lg">
                         <p className="text-blackHeading text-base pt-sans-bold mb-6">
-                            Where do you discover services like pet grooming, food supply, vet consultation etc?
+                            What is your preferred method of booking pet care services?
                         </p>
                         <div className="grid grid-flow-col auto-cols-max items-center">
                             <div>
@@ -155,16 +155,16 @@ export default function PetsoukSurvey() {
                             <div className="ml-6 pl-6">
                                 <ul className="circle-disc">
                                     <li className="text-lg text-blackHeading pt-sans-regular green-bullet-100">
-                                        Offline Pet Stores & Clinics
+                                        In-App Booking
                                     </li>
                                     <li className="text-lg text-blackHeading pt-sans-regular green-bullet-200">
-                                        Online Search
+                                        Direct Calls
                                     </li>
                                     <li className="text-lg text-blackHeading pt-sans-regular green-bullet-300">
-                                        Dedicated Websites
+                                        Online Forms
                                     </li>
                                     <li className="text-lg text-blackHeading pt-sans-regular green-bullet-400">
-                                        Social Media
+                                        Walk-in Appointments
                                     </li>
                                 </ul>
                             </div>

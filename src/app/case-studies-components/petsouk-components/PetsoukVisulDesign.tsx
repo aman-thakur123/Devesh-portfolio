@@ -3,11 +3,13 @@ import userPersona from "../../assets/images/case-study/petsouk/violet-bulb.svg"
 import img1 from "../../assets/images/case-study/petsouk/find-your-pets.png";
 import img2 from "../../assets/images/case-study/petsouk/Login.png";
 import img3 from "../../assets/images/case-study/petsouk/account-verification.png";
+import frame from "../../../../public/images/case-study/petsouk/frame.png";
 import MainHeading from "@/app/case-studies/MainHeading";
 import tick from "../../assets/images/case-study/petsouk/tick.svg";
 import step1 from "../../assets/images/case-study/petsouk/step-1.svg";
 import step2 from "../../assets/images/case-study/petsouk/step-2.svg";
 import fourdog from "../../assets/images/case-study/petsouk/four-dog.svg";
+import rabbit from "../../../../public/images/case-study/petsouk/four-rabit.svg";
 import fourcat from "../../assets/images/case-study/petsouk/four-cat.svg";
 import fourrabbit from "../../../../public/images/case-study/petsouk/dog-gif.gif";
 import fourturtle from "../../assets/images/case-study/petsouk/four-turtle.svg";
@@ -37,7 +39,11 @@ const PetsoukVisulDesign:React.FC =()=> {
                         <div>
                             <div className="max-w-96">
                                 <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4">Simple & <br /> Secure Login</h5>
-                                <p className="text-lightblack">After Splash screen, user will redirect to the choose language screen so that he/she can choose their regional language based on the states</p>
+                                <p className="text-lightblack leading-loose">
+                                    After the splash and walkthrough screens, 
+                                    the user will be directed to the login screen, where they can log in using their mobile 
+                                    number and then be redirected to the home screen.
+                                </p>
                             </div>
                         </div>
                         <div>
@@ -75,7 +81,7 @@ const PetsoukVisulDesign:React.FC =()=> {
                         <div>
                             <div className="max-w-96">
                                 <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4 leading-normal">Verify Your <br/> Account</h5>
-                                <p className="text-lightblack leading-8 pt-sans-regular">
+                                <p className="text-lightblack leading-8 pt-sans-regular leading-loose">
                                     Show others that your are real with the identify verification 
                                     badge. It is essential to prove your identity so people can freely engage with you.
                                 </p>
@@ -119,7 +125,12 @@ const PetsoukVisulDesign:React.FC =()=> {
                                     <Image src={img3} alt="get started" className="up-img"/>
                                 </ScrollAnimation>
                                 <ScrollAnimation animateIn="fadeInDown" delay={3}>
-                                    <Image src={img3} alt="proceed" />
+                                    <div className="video-frame">
+                                        <video autoPlay loop muted>
+                                            <source src={`/video/${video.deveshvideo}.mov`} type="video/mp4"/>
+                                        </video>
+                                        <Image src={frame} alt="proceed" />
+                                    </div>
                                 </ScrollAnimation>
                             </div>
                         </div>
@@ -130,10 +141,10 @@ const PetsoukVisulDesign:React.FC =()=> {
             <div className="four-image">
                 <div className="container">
                     <div className="grid grid-cols-4 gap-9">
-                        <Image src={fourdog} alt="dog" className="rounded-2xl" />
-                        <Image src={fourcat} alt="cat" className="rounded-2xl" />
-                        <Image src={fourrabbit} alt="rabbit" className="rounded-2xl" />
                         <Image src={fourturtle} alt="turtle" className="rounded-2xl" />
+                        <Image src={fourcat} alt="cat" className="rounded-2xl" />
+                        <Image src={fourrabbit} alt="dog gif" className="rounded-2xl" />
+                        <Image src={rabbit} alt="rabbit" className="rounded-2xl" />
                     </div>
                 </div>
             </div>
@@ -165,19 +176,19 @@ const PetsoukVisulDesign:React.FC =()=> {
                                 <div className="">
                                     <div className="mb-12">
                                         <h5 className="text-2xl text-bluelight pt-sans-bold mb-4">Search Functionality</h5>
-                                        <p className="text-lightblack text-lg pt-sans-regular">
+                                        <p className="text-lightblack text-lg pt-sans-regular leading-loose">
                                             Easily search for pet services such as grooming, veterinary care, and pet products. Find the best options for your pet with just a few clicks!
                                         </p>
                                     </div>
                                     <div className="mb-12">
                                         <h5 className="text-2xl text-bluelight pt-sans-bold mb-4">Pet Categories</h5>
-                                        <p className="text-lightblack text-lg pt-sans-regular">
+                                        <p className="text-lightblack text-lg pt-sans-regular leading-loose">
                                             Explore various pet categories to find your perfect companion for adoption. Discover a wide range of pets looking for a loving home!
                                         </p>
                                     </div>
                                     <div>
                                         <h5 className="text-2xl text-bluelight pt-sans-bold mb-4">Join Pet Lovers Community</h5>
-                                        <p className="text-lightblack text-lg pt-sans-regular">
+                                        <p className="text-lightblack text-lg pt-sans-regular leading-loose">
                                             Join our pet lovers community to connect with fellow pet enthusiasts and share your experiences. Be part of a vibrant network that celebrates pets!
                                         </p>
                                     </div>
@@ -199,7 +210,7 @@ const PetsoukVisulDesign:React.FC =()=> {
                             <div>
                                 <div className="max-w-96">
                                     <h5 className="text-4xl text-blackHeading pt-sans-bold mb-4 leading-normal">Gamification - <br/> Spin The Wheel</h5>
-                                    <p className="text-lightblack leading-8 text-lg">
+                                    <p className="text-lightblack leading-8 text-lg leading-loose">
                                         Spin the wheel for a chance to win exciting coupons and prizes! Try your luck and enjoy great rewards for you and your pet!
                                     </p>
                                 </div>

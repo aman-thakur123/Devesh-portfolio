@@ -13,7 +13,7 @@ import PetsoukVisulDesign from "@/app/case-studies-components/petsouk-components
 import PetsoukOtherScreens from "@/app/case-studies-components/petsouk-components/PetsoukOtherScreens";
 import PetsoukWireframes from "@/app/case-studies-components/petsouk-components/PetsoukWireframes";
 import Thanks from "@/app/componets/global/Thanks";
-import thankimg from "../../../../public/images/case-study/petsouk/thanks.png";
+import thankimg from "../../../../public/images/case-study/petsouk/thanks.gif";
 import "animate.css/animate.compat.css";
 
 export default function LoanifyCasestudy() {

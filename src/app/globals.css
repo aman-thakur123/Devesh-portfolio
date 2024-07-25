@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* impact font starts here */
@@ -25,6 +23,7 @@
 }
 
 /* impact font ends here */
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 0, 0, 0;
@@ -69,6 +68,7 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-start-rgb));
@@ -298,6 +298,8 @@ h4 {
 
 .casestudy-bg {
   background: url("./assets/images/case-study/laonify/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .problem-statement {
@@ -540,6 +542,7 @@ td:first-child {
   padding: 31px 60px;
   background-color: #ebe9f4;
   border-radius: 15px;
+  height: 100%;
 }
 
 .left-container img{
@@ -621,6 +624,16 @@ td:first-child {
   overflow: hidden;
   position: relative;
   height: 650px;
+}
+
+.life-better-video::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .video-text {
@@ -746,4 +759,29 @@ td:first-child {
   right: 0;
   bottom: 0;
   margin: auto;
+}
+
+.video-frame {
+  position: relative;
+}
+
+.video-frame video {
+  border-radius: 40px;
+}
+
+.video-frame img {
+  position: absolute;
+  top: 0;
+  width: 252px;
+  max-width: fit-content;
+  left: -5px;
+}
+
+.gif-thanks {
+  max-width: 180px;
+  border-radius: 32px;
+}
+
+.first-letter-blue::first-letter {
+  color: #2668F2;
 }

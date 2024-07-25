@@ -88,7 +88,7 @@ export default function LoanifyCasestudy() {
             <ProblemStatement {...problem}/>
             <ScopeWork {...scope}/>
             <UserResearch {...userresearch}/>
-            <DesignApproach {...designdata}/>
+            {/* <DesignApproach {...designdata}/> */}
             <Survey />
             <CompetitiveAnalysis {...compdata}/>
             <UserPersona {...userpersona}/>

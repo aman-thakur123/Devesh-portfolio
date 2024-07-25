@@ -32,7 +32,7 @@ export default function Twogridsection({ griddata }: TwogridsectionProps) {
                                 </div>
                                 <div className="text-area place-self-center">
                                     <h1 className="text-white text-5xl uppercase">{item.heading}</h1>
-                                    <p className="text-grey text-base pt-6 leading-8">{item.subtext}</p>
+                                    <p className="text-grey text-base pt-6 leading-8 first-letter-blue">{item.subtext}</p>
                                     <hr className="pb-8 mt-8" />
                                     <div className="grid grid-cols-3 gap-6">
                                         <div>

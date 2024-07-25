@@ -12,7 +12,7 @@ const PetsoukWireframes:React.FC<userflow> = ({wireframetext})=> {
         <section className="wireframes bg-white pt-10 pb-10">
             <div className="container">
                 <MainHeading heading="Wireframes & Discussions" imageAlt="wireframe image" imageUrl={userPersona} />
-                <p className="text-blackgrey text-lg">{wireframetext}</p>
+                <p className="text-blackgrey text-lg leading-loose">{wireframetext}</p>
                 <Image className="mt-11" src={userflowimg} alt="wireframes image"/>
             </div>
         </section>

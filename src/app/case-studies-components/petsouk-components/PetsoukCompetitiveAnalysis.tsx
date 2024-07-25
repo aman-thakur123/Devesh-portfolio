@@ -11,7 +11,7 @@ const PetsoukCompetitiveAnalysis:React.FC<competitiveinterface> = ({comptext})=>
         <section className="user-persona bg-white pt-20 pb-20">
             <div className="container">
                 <MainHeading heading="Competitive Analysis" imageUrl={userPersona} imageAlt="user persona"/>
-                <p className="text-lg pt-sans-regular text-blackgrey">{comptext}</p>
+                <p className="text-lg pt-sans-regular text-blackgrey leading-loose">{comptext}</p>
                 <PetsoukTable />
             </div>
         </section>

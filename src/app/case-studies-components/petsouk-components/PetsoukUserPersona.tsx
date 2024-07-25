@@ -34,7 +34,7 @@ const PetsoukUserPersona: React.FC<userpersona> = ({ userpersonatext }) => {
                                                 <div className="text-base pt-sans-bold text-blackHeading mb-4">34</div>
                                                 <div className="text-base pt-sans-bold text-blackHeading mb-4">Male</div>
                                                 <div className="text-base pt-sans-bold text-blackHeading mb-4">Married</div>
-                                                <div className="text-base pt-sans-bold text-blackHeading mb-4">B.Des</div>
+                                                <div className="text-base pt-sans-bold text-blackHeading mb-4">B.Tech</div>
                                                 <div className="text-base pt-sans-bold text-blackHeading">Gurugram</div>
                                             </div>
                                         </div>
@@ -45,7 +45,7 @@ const PetsoukUserPersona: React.FC<userpersona> = ({ userpersonatext }) => {
                             <div className="right-container">
                                 <div className="grey-container mb-5">
                                     <h5 className="mb-7 pt-sans-bold text-2xl text-blackHeading">Bio</h5>
-                                    <p className="text-base text-lightblack">
+                                    <p className="text-base text-lightblack leading-loose">
                                         Harsh is a working professional at a software development company in
                                         Gurugram, Haryana. He is married, and his wife is a government
                                         employee. They are proud owners of two dogs, Luna and Sam.
@@ -54,18 +54,18 @@ const PetsoukUserPersona: React.FC<userpersona> = ({ userpersonatext }) => {
                                 <div className="grey-container mb-5">
                                     <h5 className="mb-7 pt-sans-bold text-2xl text-blackHeading">Challenges</h5>
                                     <ul className="list-decimal text-base pl-5">
-                                        <li className="mb-1 text-lightblack">Struggles to find time for extensive research for pet services due to demanding work schedule.</li>
-                                        <li className="mb-1 text-lightblack">Faces difficulty in personally visiting multiple places for pet services.</li>
-                                        <li className="text-lightblack">Worries about Luna and Sam well being when he & his wife to see their requirements on time.</li>
+                                        <li className="mb-1 text-lightblack leading-loose">Struggles to find time for extensive research for pet services due to demanding work schedule.</li>
+                                        <li className="mb-1 text-lightblack leading-loose">Faces difficulty in personally visiting multiple places for pet services.</li>
+                                        <li className="text-lightblack leading-loose">Worries about Luna and Sam well being when he & his wife to see their requirements on time.</li>
                                     </ul>
                                 </div>
                                 <div className="grey-container">
                                     <h5 className="mb-7 pt-sans-bold text-2xl text-blackHeading">Needs</h5>
                                     <ul className="list-decimal text-base pl-5">
-                                        <li className="mb-1 text-lightblack">
+                                        <li className="mb-1 text-lightblack leading-loose">
                                             Seeks convenient at-home solutions for vet consultations, grooming and food supplies for Luna and Sam.
                                         </li>
-                                        <li className="text-lightblack">Desires a platform that streamlines her search for pet services and saves her time & money.</li>
+                                        <li className="text-lightblack leading-loose">Desires a platform that streamlines her search for pet services and saves her time & money.</li>
                                     </ul>
                                 </div>
                             </div>

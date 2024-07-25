@@ -10,8 +10,8 @@ export default function Career() {
                             <h3 className="text-white">Career so far</h3>
                             <p className="text-white max-w-lg text-lg">
                                 <span className="text-grey"> I&apos;m a </span>
-                                Senior Product Designer <span className="text-grey">at</span>  Unthinkable, <span className="text-grey">with</span> 
-                                <span className="text-grey">  7+ years of experience in the IT industry. 
+                                Senior Product Designer <span className="text-grey">at</span>  Unthinkable, <span className="text-grey">with </span> 
+                                7+ years <span className="text-grey">of experience in the IT industry. 
                                 I started as a </span>
                             
                                 Visual designer <span className="text-grey">at</span> Chromeinfotech in 2016.  

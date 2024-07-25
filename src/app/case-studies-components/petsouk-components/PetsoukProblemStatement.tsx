@@ -18,7 +18,7 @@ const PetsoukProblemStatement: React.FC<problemStatementinterface> = ({imageurl,
                     <h3 className="text-bluelight text-4xl capitalize mb-0 pt-sans-bold tracking-normal">{heading}</h3>
                 </div>
                 <div>
-                    <p className="text-blackgrey text-lg">
+                    <p className="text-blackgrey text-lg leading-loose">
                         Pet owners today face challenges in managing comprehensive pet care due to difficulties 
                         in finding reliable grooming, accessing quality pet food and apparel, securing trustworthy pet 
                         sitting, and scheduling convenient veterinary consultations. 
