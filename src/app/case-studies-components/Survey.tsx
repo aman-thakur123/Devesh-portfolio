@@ -8,7 +8,7 @@ export default function Survey() {
         <section className="survey bg-yellow pt-16 pb-16">
             <div className="container">
                 <h6 className="text-bluelight text-2xl pt-sans-bold mb-2">Surveys</h6>
-                <p className="text-lg text-bluelight pt-sans-bold mb-10">
+                <p className="text-lg text-bluelight pt-sans-bold mb-10 leading-loose">
                     I conducted a user survey to prove my hypothesis and gain user insight.
                     To reach a significant audience, I wrote a short, 4-questionsurvey and send it to
                     posted it on online communities and Twitter that matched the user profile.
@@ -20,17 +20,17 @@ export default function Survey() {
                         85% said since it is a secured loan they do prefer over conventional loan as there is no requirement of a good credit history to avail
                         a Silver loan. So that means there are many users applying for loans frequently.
                     </li>
-                    <li className="mb-4">
+                    <li className="mb-4 leading-9">
                         Over 60% of the people said they are worried about high-interest rates. Where Silver loans feature a low interest rate as compared
                         to most other loan options. This maybe can be addressed by building a marketplace for Silver loans to get competitive rates.
                     </li>
-                    <li className="mb-4">
+                    <li className="mb-4 leading-9">
                         55% of users depend on offline channels for taking Gold loans and they would love to explore Silver loan from home facility.
                     </li>
                 </ul>
                 <div className="grid grid-cols-2 gap-12 mt-11">
                     <div className="survey-card bg-yellowdark p-6 rounded-lg">
-                        <p className="text-blackHeading text-base pt-sans-bold mb-6">
+                        <p className="text-blackHeading text-base pt-sans-bold mb-6 leading-loose">
                             How convenient do you find the idea of obtaining a silver loan without visiting a physical branch?
                         </p>
                         <div className="grid grid-flow-col auto-cols-max items-center">
@@ -50,7 +50,7 @@ export default function Survey() {
                         </div>
                     </div>
                     <div className="survey-card bg-yellowdark p-6 rounded-lg">
-                        <p className="text-blackHeading text-base pt-sans-bold mb-6">
+                        <p className="text-blackHeading text-base pt-sans-bold mb-6 leading-loose">
                             What features would you prioritize in a silver loan service that operates from home?
                         </p>
                         <div className="grid grid-flow-col auto-cols-max items-center">
@@ -73,7 +73,7 @@ export default function Survey() {
                         </div>
                     </div>
                     <div className="survey-card bg-yellowdark p-6 rounded-lg">
-                        <p className="text-blackHeading text-base pt-sans-bold mb-6">
+                        <p className="text-blackHeading text-base pt-sans-bold mb-6 leading-loose">
                             What factors influence your decision to choose a silver loan from home over traditional loan options?
                         </p>
                         <div className="grid grid-flow-col auto-cols-max items-center">
@@ -96,7 +96,7 @@ export default function Survey() {
                         </div>
                     </div>
                     <div className="survey-card bg-yellowdark p-6 rounded-lg">
-                        <p className="text-blackHeading text-base pt-sans-bold mb-6">
+                        <p className="text-blackHeading text-base pt-sans-bold mb-6 leading-loose">
                             How likely are you to recommend a silver loan service that offers home-based assistance to friends or family?
                         </p>
                         <div className="grid grid-flow-col auto-cols-max items-center">

@@ -1,9 +1,9 @@
 "use client"
 import Image from "next/image";
-import Heading from "../global/Heading";
 import brandLogo from "../../../../public/images/circle.svg";
 import circlesmall from "../../../../public/images/circle-small.svg";
 import Socialicons from "../global/Socialicons";
+import CountUp from "react-countup";
 
 
 export default function Banner() {
@@ -17,7 +17,15 @@ export default function Banner() {
                 <div className="dot-pattern-bg grid grid-cols-2 gap-4 px-3 pt-24 pb-24">
                     <div>
                         <div className="max-w-lg">
-                            <Heading heading="BUILDING BRANDS SINCE 2016"/>
+                            <h1 className="mb-4 text-white md:text-5xl lg:text-8xl dark:text-white leading-normal">BUILDING BRANDS SINCE <CountUp className="text-white"
+                            start={0}
+                            end={2016}
+                            duration={3}
+                            separator=""
+                            >
+                            </CountUp>
+                        </h1>
+                           
                         </div>
                         <div className="flex items-center mt-20">
                             <button  onClick={handleEmailClick} className="text-white bg-blue hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-regular text-xl px-12 py-4 me-8 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Connect</button>

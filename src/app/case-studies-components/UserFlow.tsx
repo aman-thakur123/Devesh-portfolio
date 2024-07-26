@@ -12,7 +12,7 @@ const UserFlow:React.FC<userflow> = ({userflowtext})=> {
         <section className="user-flow bg-greybg pt-20 pb-20">
             <div className="container">
                 <MainHeading heading="Userflow" imageAlt="User Persona image" imageUrl={userPersona} />
-                <p className="text-blackgrey text-lg">{userflowtext}</p>
+                <p className="text-blackgrey text-lg leading-loose">{userflowtext}</p>
                 <Image className="mt-11" src={userflowimg} alt="userflow image"/>
             </div>
         </section>

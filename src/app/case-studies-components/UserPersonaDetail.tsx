@@ -22,32 +22,34 @@ const UserPersonaDetail:React.FC<userpersona> = ({userPic,userAlt,userName, age,
                 <p className="text-base pt-sans-regular text-blackgrey mt-3">{`Location - ${location}`}</p>
             </div>
             <div className="right-side">
-                <h6 className="text-lg pt-sans-bold mb-2 pt-sans-bold">About</h6>
-                <p className="text-lg pr-sans-regular mb-7 text-blackgrey">{about}</p>
+                <h6 className="text-lg pt-sans-bold mb-2 pt-sans-bold text-black">About</h6>
+                <p className="text-lg pr-sans-regular mb-7 text-blackgrey leading-loose">{about}</p>
                 <div className="bg-blue-100 py-6 px-7 rounded-md mb-7">
                     {goallist && goallist.length > 0 && (
                         <div>
                             <h4 className="text-bluelight text-xl pt-sans-bold mb-4 tracking-normal">Goals</h4>
                             <ul>
                                 {goallist.map((goal, index) => (
-                                    <li className="text-lg text-bluelight pt-sans-regular mt-4" key={index}>{goal}</li>
+                                    <li className="text-lg text-bluelight pt-sans-regular mt-4 leading-loose" key={index}>{goal}</li>
                                 ))}
                             </ul>
                         </div>
                     )}
                 </div>
-                <div className="bg-blue-100 py-6 px-7 rounded-md">
+                
                     {frustrationlist && frustrationlist.length > 0 && (
+                        <div className={`${frustrationlist.length == 0 ? "bg-blue-100": "bg-purple"} py-6 px-7 rounded-md`}>
                         <div>
                             <h4 className="text-bluelight text-xl pt-sans-bold mb-4 tracking-normal">Frustrations</h4>
                             <ul>
                                 {frustrationlist.map((goal, index) => (
-                                    <li className="text-lg text-bluelight pt-sans-regular mt-4" key={index}>{goal}</li>
+                                    <li className="text-lg text-bluelight pt-sans-regular mt-4 leading-loose" key={index}>{goal}</li>
                                 ))}
                             </ul>
                         </div>
+                        </div>
                     )}
-                </div>
+                
             </div>
        </div>
     )

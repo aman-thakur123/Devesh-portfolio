@@ -10,7 +10,7 @@ interface twocolumn {
 }
 const TwoColumns:React.FC<twocolumn> =({heading, text ,img1, img1alt, img2, img2alt})=> {
     return(
-        <section>
+        <section className="">
             <div className="container">
                 <div className="grid grid-cols-2 items-center">
                     <div>

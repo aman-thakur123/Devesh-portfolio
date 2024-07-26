@@ -15,7 +15,8 @@ import AltorumUserPersona from "@/app/case-studies-components/altorum-components
 import AltorumUserFlow from "@/app/case-studies-components/altorum-components/AltorumUserFlow";
 import AltorumTypography from "@/app/case-studies-components/altorum-components/AltorumTypography";
 import AltorumCompetitiveAnalysis from "@/app/case-studies-components/altorum-components/AltorumCompetitiveAnalysis";
-
+import thankimg from "../../../../public/images/thanks-hand.svg";
+import Thanks from "@/app/componets/global/Thanks";
 export default function LoanifyCasestudy() {
     const details = {
         imageurl: loanifyimg,
@@ -76,6 +77,11 @@ export default function LoanifyCasestudy() {
     const wireframe = {
         wireframetext: "While creating a user flow, I take into account both the needs of the business and users. Thus, app users have the opportunity to intuitively navigate inside the application and effectively use all the functionality."
     }
+    const thanksdata = {
+        thanksimg: thankimg,
+        thanksalt: "thanks image",
+        heading: "Thanks For Your Attention!"
+    }
 
     return(
         <main>
@@ -89,6 +95,7 @@ export default function LoanifyCasestudy() {
             <Wireframes {...wireframe}/>
             <AltorumTypography {...colortypo} />
             <VisualDesigns />
+            <Thanks {...thanksdata}/>
         </main>
     )
 }

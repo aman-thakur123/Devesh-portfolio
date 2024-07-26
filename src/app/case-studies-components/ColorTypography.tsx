@@ -42,37 +42,37 @@ const ColorTypography:React.FC<colortypo> = ({colortext})=> {
                     </div>
                 </div>
                 <div className="color-section-two">
-                    <h6 className="text-blackHeading pt-sans-bold text-lg mb-6">Other Colors For UI</h6>
+                    <h6 className="text-black pt-sans-bold text-lg mb-6">Other Colors For UI</h6>
                     <div className="grid grid-cols-2 space-x-8">
                         <div className="left-side-color">
                             <div className="grid grid-cols-2">
                                 <div>
                                     <div className="red-bg mb-6"></div>
                                     <div className="text-center">
-                                        <p className="text-blackheading text-lg pt-sans-bold mb-2">Success</p>
+                                        <p className="text-black text-lg pt-sans-bold mb-2">Success</p>
                                         <p className="text-lightgrey text-base pt-sans-regular">#27AE60</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="green-bg mb-6"></div>
                                     <div className="text-center">
-                                        <p className="text-blackheading text-lg pt-sans-bold mb-2">Error</p>
+                                        <p className="text-black text-lg pt-sans-bold mb-2">Error</p>
                                         <p className="text-lightgrey text-base pt-sans-regular">#EB5757</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="right-side-color">
-                            <p className="text-lg pt-sans-bold text-blackheading">Fonts Used</p>
+                            <p className="text-lg pt-sans-bold text-black">Fonts Used</p>
                             <div className="grid grid-flow-col space-x-8">
                                 <div>
                                     <div>
-                                        <p className="text-7xl pt-sans-bold text-blackheading">Aa</p>
+                                        <p className="text-7xl pt-sans-bold text-black">Aa</p>
                                     </div>
                                 </div>
                                 <div>
-                                    <p className="mb-3 text-2xl pt-sans-bold text-blackheading">PT Sans</p>
-                                    <p className="mb-3 text-base pt-sans-bold text-blackheading">Regular &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Medium</p>
+                                    <p className="mb-3 text-2xl pt-sans-bold text-black">PT Sans</p>
+                                    <p className="mb-3 text-base pt-sans-bold text-black">Regular &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Medium</p>
                                     <p className="break-all text-lightgrey pt-sans-regular">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
                                 </div>
                             </div>

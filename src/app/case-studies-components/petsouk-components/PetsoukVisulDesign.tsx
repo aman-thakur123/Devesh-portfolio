@@ -127,7 +127,7 @@ const PetsoukVisulDesign:React.FC =()=> {
                                 <ScrollAnimation animateIn="fadeInDown" delay={3}>
                                     <div className="video-frame">
                                         <video autoPlay loop muted>
-                                            <source src={`/video/${video.deveshvideo}.mov`} type="video/mp4"/>
+                                            <source src={`/video/${video.deveshvideo}.MOV`} type="video/mp4"/>
                                         </video>
                                         <Image src={frame} alt="proceed" />
                                     </div>

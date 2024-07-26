@@ -18,8 +18,8 @@ interface visualdesign {
 
 }
 const twocoloumndata = {
-    heading: "Simple & Secure Login",
-    text: "After Splash screen, user will redirect to the choose language screen so that he/she can choose their regional language based on the states",
+    heading: "Choose Your Language",
+    text: "After Splash screen, user will redirect to the choose language screen so that he/she can choose their regional language based on the states.",
     img1: img1,
     img1alt: "mobile image",
     img2: img2,
@@ -27,7 +27,7 @@ const twocoloumndata = {
 }
 
 const twocoloumndatareverse = {
-    heading: "Simple & Secure Login & Signup",
+    heading: "Easy & Secure Login, Signup",
     text: "Login and Registration process have been designed in such a way that even a naive user can use Loanify App easily",
     img1: img3,
     img1alt: "mobile image",
@@ -66,7 +66,7 @@ const VisualDesigns:React.FC<visualdesign> =()=> {
             <div className="container">
                 <MainHeading heading="Visual Designs" imageAlt="User Persona image" imageUrl={userPersona} />
             </div>
-            <div className="circle-bg-grey">
+            <div className="circle-bg-grey pt-24">
                 <TwoColumns {...twocoloumndata}/>
                 <TwoColumnsreverse {...twocoloumndatareverse}/>
             </div>

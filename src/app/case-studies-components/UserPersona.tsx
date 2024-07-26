@@ -53,7 +53,7 @@ const UserPersona:React.FC<userpersona> = ({userpersonatext})=>{
                 <div className="pt-10 pb-20 bg-white">
                     <div className="container">
                         <MainHeading heading="User Persona" imageAlt="User Persona image" imageUrl={userPersona} />
-                        <p className="mb-11 text-blackgrey text-lg">{userpersonatext}</p>
+                        <p className="mb-11 text-blackgrey text-lg leading-loose">{userpersonatext}</p>
                         <UserPersonaDetail {...userpersonadetailsuresh}/>
                     </div>
                 </div>

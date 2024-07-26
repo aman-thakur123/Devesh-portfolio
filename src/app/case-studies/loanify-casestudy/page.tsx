@@ -14,7 +14,10 @@ import UserPersona from "../../case-studies-components/UserPersona";
 import UserFlow from "@/app/case-studies-components/UserFlow";
 import ColorTypography from "@/app/case-studies-components/ColorTypography";
 import VisualDesigns from "@/app/case-studies-components/VisualDesigns";
-import graphImage from "../../assets/images/case-study/laonify/map-image.svg";
+import graphImage from "../../../../public/images/case-study/laonify/graphImage.svg";
+import thankimg from "../../../../public/images/thanks-hand.svg";
+import Thanks from "@/app/componets/global/Thanks";
+import LoanifyWireframes from "@/app/case-studies-components/loanify-components/loanifyWireframes";
 
 export default function LoanifyCasestudy() {
     const details = {
@@ -56,7 +59,7 @@ export default function LoanifyCasestudy() {
         userAlt: "User alt text",
         heading: "User Research",
         usersubtext: "Silver in India comes next to gold in the jewellery buying preference of Indians. With the current downward spiraling of gold prices, silver is the new-found love of Indians. The shiny metal has been able to hold its price and even seen appreciations in a time when gold has been continuously losing shine for the past 2-3 years. Silver in various forms is popular in the Indian culture. The most significant role is played by it in weddings and birthdays. Other ceremonies which see silver being used as gifts and puja item are naming ceremony of babies, engagement ceremonies and pujas during Indian festivals like Diwali and Holi.",
-        usergraphtext: "Silver in India comes next to gold in the jewellery buying preference of Indians. With the current downward spiraling of gold prices, silver is the new-found love of Indians. The shiny metal has been able to hold its price and even seen appreciations in a time when gold has been continuously losing shine for the past 2-3 years.Silver in various forms is popular in the Indian culture. The most significant role is played by it in weddings and birthdays. Other ceremonies which see silver being used as gifts and puja item are naming ceremony of babies, engagement ceremonies and pujas during Indian festivals like Diwali and Holi.",
+        usergraphtext: "India comes next to gold in the jewellery buying preference of Indians. With the current downward spiraling of gold prices, silver is the new-found love of Indians. The shiny metal has been able to hold its price and even seen appreciations in a time when gold has been continuously losing shine for the past 2-3 years.Silver in various forms is popular in the Indian culture. The most significant role is played by it in weddings and birthdays. Other ceremonies which see silver being used as gifts and puja item are naming ceremony of babies, engagement ceremonies and pujas during Indian festivals like Diwali and Holi.",
         usergraphimg: usergraph
     }
 
@@ -82,6 +85,16 @@ export default function LoanifyCasestudy() {
     const colortypo = {
         colortext: "text"
     }
+
+    const thanksdata = {
+        thanksimg: thankimg,
+        thanksalt: "thanks image",
+        heading: "Thanks For Your Attention!"
+    }
+
+    const wireframe = {
+        wireframetext: "I conducted a peer review of the hand-drawn wireframes and engaged in brainstorming sessions with my product design team, including my design manager. Based on the discussions and feedback, I made the necessary iterations."
+    }
     return(
         <main>
             <CaseStudyBanner {...details}/>
@@ -89,12 +102,15 @@ export default function LoanifyCasestudy() {
             <ScopeWork {...scope}/>
             <UserResearch {...userresearch}/>
             {/* <DesignApproach {...designdata}/> */}
-            <Survey />
+            
             <CompetitiveAnalysis {...compdata}/>
+            <Survey />
             <UserPersona {...userpersona}/>
             <UserFlow {...userflow}/>
+            <LoanifyWireframes {...wireframe}/>
             <ColorTypography {...colortypo} />
             <VisualDesigns />
+            <Thanks {...thanksdata}/>
         </main>
     )
 }

@@ -10,7 +10,7 @@ interface twocolumnreverse {
 }
 const TwoColumnsreverse:React.FC<twocolumnreverse> =({heading, text ,img1, img1alt, img2, img2alt})=> {
     return(
-        <section className="mb-28">
+        <section className="mb-28 pt-24">
             <div className="container">
                 <div className="grid grid-cols-2 items-center">
                     <div>
