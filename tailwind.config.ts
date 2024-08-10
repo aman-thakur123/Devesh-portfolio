@@ -61,7 +61,9 @@ const config: Config = {
       'typobggrey': "#ebf3f2",
       'green': "#2F817B",
       'orange': "#EC5516",
-      'purple': "#EDF3FE"
+      'purple': "#EDF3FE",
+      'blue-text': "#18395D",
+      'darkblue': "#2563EB",
     }
   },
   plugins: [],

@@ -8,7 +8,7 @@ import CountUp from "react-countup";
 
 export default function Banner() {
     const handleEmailClick = () => {
-        const email = "artistdeveshsharma@gmail.com";
+        const email = "deveshux.in@gmail.com";
         window.location.href = `mailto:${email}`;
     };
     return(
@@ -18,9 +18,9 @@ export default function Banner() {
                     <div>
                         <div className="max-w-lg">
                             <h1 className="mb-4 text-white md:text-5xl lg:text-8xl dark:text-white leading-normal">BUILDING BRANDS SINCE <CountUp className="text-white"
-                            start={0}
+                            start={2000}
                             end={2016}
-                            duration={3}
+                            duration={2}
                             separator=""
                             >
                             </CountUp>

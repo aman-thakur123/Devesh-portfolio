@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="">
                         <p className="text-grey">My mail Id</p>
                         <p className="text-white">
-                            artistdeveshsharma@gmail.com
+                            deveshux.in@gmail.com
                         </p>
                     </div>
                     <div className="footer-social-icons place-self-end">

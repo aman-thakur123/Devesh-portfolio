@@ -785,3 +785,65 @@ td:first-child {
 .first-letter-blue::first-letter {
   color: #2668F2;
 }
+
+/* ehr page css */
+
+.pt-sans {
+  font-family: "PT Sans", sans-serif;
+}
+
+.banner-ehr {
+  position: relative;
+}
+
+.banner-ehr hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ehr_banner_content {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 48px;
+  padding: 42px 36px;
+  max-width: 613px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+.ehr_banner_image {
+  display: flex;
+  align-items: center;
+}
+
+.ehr-user-research {
+  background-color: rgba(37, 99, 235, 0.3);
+}
+
+.ehr-system {
+  background-color: #ffffff;
+}
+
+.ehr-demand {
+  background-color:rgba(37, 99, 235, 0.3);
+}
+
+.ehr-banner-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+}
+
+.ehr-survey {
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+.ehr-survey .card-scope h4 {
+  max-width: 500px;
+}
+
+.ehr-survey-response {
+  background-color: rgba(115, 197, 50, 0.1);
+}

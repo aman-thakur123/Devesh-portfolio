@@ -7,7 +7,7 @@ import HeadingOutfit from "../componets/global/HeadingOutfit";
 
 export default function Aboutbanner() {
     const handleEmailClick = () => {
-        const email = "artistdeveshsharma@gmail.com";
+        const email = "deveshux.in@gmail.com";
         window.location.href = `mailto:${email}`;
     };
     return(
