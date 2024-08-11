@@ -16,6 +16,9 @@ import EhrSurvey from '@/app/case-studies-components/ehr-components/EhrSurvey';
 import usergraph from "../../assets/images/case-study/laonify/user-graph.png";
 import EhrPicture from '@/app/case-studies-components/ehr-components/EhrPicture';
 import EhrSurveyResponse from '@/app/case-studies-components/ehr-components/EhrSurveyResponse';
+import EhrUserPersona from '@/app/case-studies-components/ehr-components/EhrUserPersona';
+import EhrTypography from '@/app/case-studies-components/ehr-components/EhrTypography';
+import EhrVisulDesign from '@/app/case-studies-components/ehr-components/EhrVisualDesign';
 
 export default function LoanifyCasestudy() {
     const problem = {
@@ -60,9 +63,14 @@ export default function LoanifyCasestudy() {
         usersubtext: "As part of our quantitative research, my friend and I conducted a survey at leading hospitals in the Delhi NCR region, including Fortis, Medanta, GTB Hospital, and Aruna Asif Ali Hospital. The survey, which comprised eight questions and interviews, provided deeper insights into our user base and helped corroborate the findings from our qualitative research.",
         usergraphimg: usergraph
     }
-
+    const userpersona = {
+        userpersonatext: "Based on user research conducted in hospitals across the Delhi NCR region, involving both patients and doctors, I developed two personas. I consistently referred to these personas throughout the entire product development process.",
+    }
+    const colortypo = {
+        colortext: "text"
+    }
     return(
-        <main className='pt-sans'>
+        <main className='pt-sans overflow-hidden'>
           <EhrBanner />
           <EhrProblemStatement {...problem}/>
           <EhrScopeWork {...scope} />
@@ -74,6 +82,9 @@ export default function LoanifyCasestudy() {
           <EhrPicture />
           <EhrSurveyResponse />
           <EhrPicture />
+          <EhrUserPersona {...userpersona}/>
+          <EhrTypography {...colortypo} />
+          <EhrVisulDesign />
           <Thanks {...thanksdata}/>
         </main>
     )

@@ -5,7 +5,6 @@ import altorumrightimg from "../../assets/images/case-study/altorum/altorum-bann
 import problemRight from "../../assets/images/case-study/altorum/problem.png";
 import usergraph from "../../assets/images/case-study/laonify/user-graph.png";
 import Problemimg from "../../assets/images/case-study/altorum/bulb-red.svg";
-import CompetitiveAnalysis from "../../case-studies/CompetitiveAnalysis";
 import graphImgfull from "../../assets/images/case-study/laonify/loanify-graph.svg";
 import ScopeWorkAltrum from "@/app/case-studies-components/altorum-components/ScopeWorkAltrum";
 import VisualDesigns from "@/app/case-studies-components/VisualDesigns";

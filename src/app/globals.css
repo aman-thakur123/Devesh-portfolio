@@ -727,6 +727,33 @@ td:first-child {
 .hex-altorum.darkorange::before{
   background-color: #EC5516;
 }
+/*  */
+.hex-altorum.blue::before {
+  background-color: #2563EB;
+}
+.hex-altorum.grey::before {
+  background-color: #52525B;
+}
+.hex-altorum.blueGradient::before {
+  background-color: #3E7AFC;
+}
+.hex-altorum.error::before {
+  background-color: #EA4335;
+}
+.hex-altorum.secondary::before {
+  background-color: #34A853;
+}
+.hex-altorum.orangeGradeint::before {
+  background-color: #FBBC05;
+}
+.hex-altorum.darkorangeGradient::before {
+  background-color: rgb(251, 158, 5);
+}
+.hex-altorum.darkblueGradient::before {
+  background-color: #2256C8;
+}
+
+/*  */
 
 .rounded-tag {
   background-color: #FFFFFF33;
@@ -846,4 +873,73 @@ td:first-child {
 
 .ehr-survey-response {
   background-color: rgba(115, 197, 50, 0.1);
+}
+
+.ehrtypography {
+  background: rgba(209, 209, 209, 0.1);
+}
+
+.typo-set {
+  top: 0;
+  left: 40%;
+}
+.vp-container {
+  width: calc(100vw - (100vw - 1082px)/2 );
+  margin-left: auto;
+}
+
+.vp-container-left {
+  width: calc(100vw - (100vw - 1082px)/2 );
+  margin-right: auto;
+}
+
+.video-left-border video{
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+}
+
+.video-right-border video {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.persona-content {
+  position: relative;
+  padding-top: 66px;
+  padding-bottom: 66px;
+}
+
+.persona-content::after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: rgba(37, 99, 235, 0.1);
+  position:absolute;
+  right: 0;
+  top: 0;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+
+.patient-persona .persona-content::after {
+  background: rgba(115, 197, 50, 0.1);
+  left: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+
+.admin-persona .persona-content::after {
+  background: rgba(197, 94, 50, 0.1);
+}
+
+.image-part {
+  position: relative;
+  left: 66px;
+}
+
+.image-part-right {
+  position: relative;
+  right: 66px;
 }
