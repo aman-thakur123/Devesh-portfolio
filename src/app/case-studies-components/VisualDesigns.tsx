@@ -14,9 +14,6 @@ import TwoColumnList from "./TwoColumnList";
 import OtherScreens from "./OtherScreens";
 import TwoColumnImageup from "./TwoColumnImageup";
 
-interface visualdesign {
-
-}
 const twocoloumndata = {
     heading: "Choose Your Language",
     text: "After Splash screen, user will redirect to the choose language screen so that he/she can choose their regional language based on the states.",
@@ -60,7 +57,7 @@ const twocolimageup = {
     img1alt: "mobile image",
 }
 
-const VisualDesigns:React.FC<visualdesign> =()=> {
+const VisualDesigns:React.FC =()=> {
     return(
         <section className="visual-design bg-greybg pt-20 pb-20">
             <div className="container">

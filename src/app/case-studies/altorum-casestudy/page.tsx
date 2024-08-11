@@ -16,6 +16,7 @@ import AltorumTypography from "@/app/case-studies-components/altorum-components/
 import AltorumCompetitiveAnalysis from "@/app/case-studies-components/altorum-components/AltorumCompetitiveAnalysis";
 import thankimg from "../../../../public/images/thanks-hand.svg";
 import Thanks from "@/app/componets/global/Thanks";
+
 export default function LoanifyCasestudy() {
     const details = {
         imageurl: loanifyimg,
